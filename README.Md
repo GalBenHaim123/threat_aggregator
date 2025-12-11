@@ -1,67 +1,58 @@
 # Weekly Threat Intelligence Aggregator
 
-This project is a Python-based **Weekly Threat Intelligence Aggregator** that collects, normalizes, deduplicates, and visualizes cyber threat indicators (IOCs) and CVEs from multiple public intelligence sources.  
-The tool compiles all collected data into structured **HTML, CSV, and Excel reports**, including automatic opening and saving the results to the user's machine.
+Python-based **Weekly Threat Intelligence Aggregator** that collects, normalizes, deduplicates, and visualizes cyber threat indicators (IOCs) and CVEs from multiple public intelligence sources. It compiles data into structured **HTML, CSV, and Excel reports**, automatically saving and opening results on the user's machine.
 
 ---
 
-### API Keys
+## Environment
 
-The `.env` file included in this submission contains placeholder values only.  
-Please insert your own API keys to enable data collection from OTX, NVD, and URLHaus.
+Create a `.env` file in the project root (placeholders shown):
+```
+OTX_API_KEY=your-otx-key
+NVD_API_KEY=your-nvd-key
+URLHAUS_AUTH_KEY=your-urlhaus-key
+```
+Notes:
+- Keys are optional per source; missing keys simply skip that source.
+- Keep `.env` out of version control.
 
-##  Features
-
+## Features
 - Aggregates threat intelligence from:
-  - **NVD (NIST CVE Database)** – latest vulnerabilities in the past 7 days  
-  - **AlienVault OTX** – IOC data from subscribed pulses  
-  - **URLHaus** – malicious URLs and related metadata  
-  - **Israel National Cyber Directorate (INCD)** – CVE advisories (via scraping fallback)  
+  - **NVD (NIST CVE Database)** – latest vulnerabilities in the past 7 days
+  - **AlienVault OTX** – IOC data from subscribed pulses
+  - **URLHaus** – malicious URLs and related metadata
+  - **Israel National Cyber Directorate (INCD)** – CVE advisories (requests with Selenium fallback)
+- Normalizes to a unified schema, deduplicates, sorts newest-first
+- Generates HTML (auto-open), CSV, and Excel (copied to Downloads and auto-opened on Windows)
 
-- Normalizes all sources into a unified schema  
-- Removes duplicates across sources  
-- Sorts indicators by time (newest first)  
-- Generates:
-  - **Beautiful HTML Report** (automatically opened)  
-  - **CSV Report**  
-  - **Excel Report** (auto-generated, copied to *Downloads*, and auto-opened)  
+## Project Structure
+Single Python script for simplicity:
+- Source fetchers
+- Normalization/deduplication
+- HTML rendering
+- Reporting (CSV/HTML/Excel)
+- Main program flow
 
----
-
-##  Project Structure
-
-The tool is implemented in a single Python script for simplicity (suitable for a home assignment), containing:
-
-- Fetching functions for each source  
-- Normalization and deduplication logic  
-- HTML rendering engine with UI styling  
-- Reporting engine (CSV, HTML, Excel)  
-- Main program flow  
-
----
 ## Security Considerations
+- API keys loaded from `.env`; do not commit this file.
 
-- API keys are stored in a `.env` file and loaded securely at runtime.  
-  The `.env` file must not be committed to version control.
-
-
-
-
-
-##  Requirements
-Python 3.9+
-for Selenium support:
-Google Chrome browser installed
-Chromedriver is handled automatically via webdriver-manager
+## Requirements
+- Python 3.9+
+- Google Chrome installed (Selenium scraping)
+- Chromedriver handled automatically via `webdriver-manager`
 
 Install dependencies:
-
 ```bash
+pip install -r requirements.txt  # or install individually
 pip install requests pandas beautifulsoup4 python-dotenv selenium webdriver-manager lxml openpyxl
 ```
 
-## Running the Program
-Simply run:
-
+## Running
 ```bash
 python threat_aggregator.py
+```
+
+Behavior:
+- Uses a 7-day window ending at run time.
+- Sources: NVD, AlienVault OTX, URLHaus, INCD (requests with Selenium fallback).
+- Generates CSV, HTML, and Excel reports; copies Excel to Downloads and auto-opens HTML/Excel on Windows.

@@ -1,15 +1,21 @@
-import requests
-import re
+from __future__ import annotations
+
+import logging
 import os
-import webbrowser
-import time
-import pandas as pd
+import re
 import shutil
-from urllib.parse import urlparse
+import time
+import webbrowser
+from dataclasses import dataclass, asdict
 from datetime import datetime, timedelta
 from pathlib import Path
-from dotenv import load_dotenv
+from typing import Iterable, List
+from urllib.parse import urlparse
+
+import pandas as pd
+import requests
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -17,35 +23,22 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-
-# ==========================
-# טעינת .env
-# ==========================
-
+# ---------------------------------------------------------------------------
+# Configuration & logging
+# ---------------------------------------------------------------------------
 BASE_DIR = Path(__file__).resolve().parent
-env_path = BASE_DIR / ".env"
-print(f"[DEBUG] Looking for .env at: {env_path}")
-load_dotenv(dotenv_path=env_path)
+ENV_PATH = BASE_DIR / ".env"
 
-print(f"[DEBUG] OTX_API_KEY loaded? {'YES' if os.getenv('OTX_API_KEY') else 'NO'}")
-print(f"[DEBUG] NVD_API_KEY loaded? {'YES' if os.getenv('NVD_API_KEY') else 'NO'}")
+load_dotenv(dotenv_path=ENV_PATH)
 
-# ==========================
-# חלון זמן לדוח השבועי
-# ==========================
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+)
+logger = logging.getLogger("threat_aggregator")
 
 REPORT_END = datetime.utcnow()
 REPORT_START = REPORT_END - timedelta(days=7)
-
-
-def is_in_report_window(dt: datetime) -> bool:
-    """בודק אם datetime נמצא בתוך חלון הדוח (שבוע אחורה)."""
-    return REPORT_START <= dt <= REPORT_END
-
-
-# ==========================
-# הגדרות כלליות + קונפיגורציה
-# ==========================
 
 HEADERS = {
     "User-Agent": (
@@ -56,91 +49,103 @@ HEADERS = {
 }
 CVE_REGEX = re.compile(r"CVE-\d{4}-\d{4,7}")
 
-# --- AlienVault OTX ---
 OTX_API_KEY = os.getenv("OTX_API_KEY", "")
-OTX_PULSES_LIMIT = 150         # כמה pulses נמשוך
-OTX_INDICATORS_LIMIT = 120     # מקסימום IOC שניקח מתוך AlienVault
+OTX_PULSES_LIMIT = 150
+OTX_INDICATORS_LIMIT = 120
 
-# --- NVD CVE API ---
 NVD_API_KEY = os.getenv("NVD_API_KEY", "")
-NVD_RESULTS_LIMIT = 100       # כמה CVE מקס' מהשבוע האחרון
-#---AUTH API----
+NVD_RESULTS_LIMIT = 100
+
 URLHAUS_AUTH_KEY = os.getenv("URLHAUS_AUTH_KEY", "")
 URLHAUS_LIMIT = 500
 
 
-# ==========================
-# עזר: חומרת IOC של OTX
-# ==========================
+# ---------------------------------------------------------------------------
+# Models & helpers
+# ---------------------------------------------------------------------------
+@dataclass
+class ThreatRecord:
+    date: str
+    source: str
+    type: str
+    domain: str
+    identifier: str
+    info: str
+    severity: str
 
-def classify_severity_otx(indicator_type, pulse_tags):
-    """
-    קובע חומרה לאינדיקטור מ-OTX על סמך סוג אינדיקטור + תגיות של pulse.
-    """
+    def to_dict(self) -> dict:
+        return asdict(self)
+
+
+def is_in_report_window(dt: datetime) -> bool:
+    return REPORT_START <= dt <= REPORT_END
+
+
+def map_cvss_to_severity(score: float | None) -> str:
+    if score is None:
+        return "Medium"
+    try:
+        value = float(score)
+    except (TypeError, ValueError):
+        return "Medium"
+
+    if value >= 9.0:
+        return "Critical"
+    if value >= 7.0:
+        return "High"
+    if value >= 4.0:
+        return "Medium"
+    return "Low"
+
+
+def classify_severity_otx(indicator_type: str, pulse_tags: Iterable[str]) -> str:
     tags_lower = [t.lower() for t in (pulse_tags or [])]
-
     critical_keywords = ["ransomware", "apt", "botnet", "c2", "c2 server", "backdoor"]
     if any(k in tags_lower for k in critical_keywords):
         return "Critical"
 
-    high_types = ["IPv4", "URL", "domain", "hostname"]
-    if indicator_type in high_types:
+    if indicator_type in {"IPv4", "URL", "domain", "hostname"}:
         return "High"
 
     return "Medium"
 
 
-
-def fetch_incd():
-
-    print("[*] Fetching from INCD (Mixed Approach)...")
-
+# ---------------------------------------------------------------------------
+# Source fetchers
+# ---------------------------------------------------------------------------
+def fetch_incd() -> List[ThreatRecord]:
+    logger.info("Fetching from INCD (requests -> Selenium -> fallback)...")
     url = "https://www.gov.il/en/departments/dynamiccollectors/cve_advisories_listing?skip=0"
+    today_str = REPORT_END.strftime("%Y-%m-%d")
 
-    # לשמור עקביות עם שאר המקורות – אם יש לך REPORT_END השתמש בו, אחרת today's date
     try:
-        today_dt = REPORT_END
-    except NameError:
-        today_dt = datetime.now()
-    today_str = today_dt.strftime("%Y-%m-%d")
-
-    # ---------------------------------------------------------
-    # שלב 1 – ניסיון עם requests
-    # ---------------------------------------------------------
-    try:
-        print("   -> Trying requests-based scraping from INCD...")
         resp = requests.get(url, headers=HEADERS, timeout=15)
         resp.raise_for_status()
-
         soup = BeautifulSoup(resp.text, "html.parser")
         text = soup.get_text(" ", strip=True)
-
         found_cves = list(set(CVE_REGEX.findall(text)))
 
         if len(found_cves) >= 2:
-            print(f"   -> Found {len(found_cves)} CVEs using requests (INCD).")
+            logger.info("INCD (requests) found %s CVEs", len(found_cves))
             return [
-                {
-                    "Date": today_str,
-                    "Source": "Israel Cyber Directorate",
-                    "Type": "CVE Vulnerability",
-                    "Domain": "gov.il",
-                    "Identifier": cve,
-                    "Info": "INCD advisory (requests scraping)",
-                    "Severity": "High",
-                }
-                for cve in found_cves[:5]  # לוקחים עד 5 כדי לא להציף את הדו\"ח
+                ThreatRecord(
+                    date=today_str,
+                    source="Israel Cyber Directorate",
+                    type="CVE Vulnerability",
+                    domain="gov.il",
+                    identifier=cve,
+                    info="INCD advisory (requests scraping)",
+                    severity="High",
+                )
+                for cve in found_cves[:5]
             ]
 
-        print("   -> Not enough CVEs via requests, switching to Selenium...")
+        logger.info("INCD requests insufficient results; switching to Selenium.")
 
-    except Exception as e:
-        print(f"   -> Requests scraping for INCD failed: {e}")
-        print("   -> Switching to Selenium...")
+    except Exception as exc:
+        logger.warning("INCD requests scraping failed: %s", exc)
+        logger.info("Switching to Selenium.")
 
-    # ---------------------------------------------------------
-    # שלב 2 – ניסיון עם Selenium (דף דינמי)
-    # ---------------------------------------------------------
     driver = None
     try:
         chrome_options = Options()
@@ -151,35 +156,32 @@ def fetch_incd():
 
         driver = webdriver.Chrome(
             service=Service(ChromeDriverManager().install()),
-            options=chrome_options
+            options=chrome_options,
         )
-
         driver.get(url)
-        # לתת קצת זמן ל-JS לטעון את הטבלה
         time.sleep(5)
-
         page_text = driver.find_element(By.TAG_NAME, "body").text
         found_cves = list(set(CVE_REGEX.findall(page_text)))
 
         if len(found_cves) >= 2:
-            print(f"   -> Found {len(found_cves)} CVEs using Selenium (INCD).")
+            logger.info("INCD (Selenium) found %s CVEs", len(found_cves))
             return [
-                {
-                    "Date": today_str,
-                    "Source": "Israel Cyber Directorate",
-                    "Type": "CVE Vulnerability",
-                    "Domain": "gov.il",
-                    "Identifier": cve,
-                    "Info": "INCD advisory (Selenium scraping)",
-                    "Severity": "High",
-                }
+                ThreatRecord(
+                    date=today_str,
+                    source="Israel Cyber Directorate",
+                    type="CVE Vulnerability",
+                    domain="gov.il",
+                    identifier=cve,
+                    info="INCD advisory (Selenium scraping)",
+                    severity="High",
+                )
                 for cve in found_cves[:5]
             ]
 
-        print("   -> Selenium did not find enough CVEs on INCD page.")
+        logger.info("Selenium did not find enough CVEs on INCD page.")
 
-    except Exception as e:
-        print(f"   -> Selenium scraping for INCD failed: {e}")
+    except Exception as exc:
+        logger.warning("INCD Selenium scraping failed: %s", exc)
 
     finally:
         if driver is not None:
@@ -188,74 +190,39 @@ def fetch_incd():
             except Exception:
                 pass
 
-    # ---------------------------------------------------------
-    # שלב 3 – Fallback בטוח (לא שובר את הדו\"ח)
-    # ---------------------------------------------------------
-    print("   -> Returning fallback sample CVEs from INCD.")
+    logger.info("Returning fallback CVEs from INCD.")
     return [
-        {
-            "Date": today_str,
-            "Source": "Israel Cyber Directorate",
-            "Type": "CVE Vulnerability",
-            "Domain": "gov.il",
-            "Identifier": "CVE-2024-99999",
-            "Info": "Fallback advisory example from INCD",
-            "Severity": "High",
-        },
-        {
-            "Date": today_str,
-            "Source": "Israel Cyber Directorate",
-            "Type": "CVE Vulnerability",
-            "Domain": "gov.il",
-            "Identifier": "CVE-2024-88888",
-            "Info": "Fallback advisory example from INCD",
-            "Severity": "High",
-        },
+        ThreatRecord(
+            date=today_str,
+            source="Israel Cyber Directorate",
+            type="CVE Vulnerability",
+            domain="gov.il",
+            identifier="CVE-2024-99999",
+            info="Fallback advisory example from INCD",
+            severity="High",
+        ),
+        ThreatRecord(
+            date=today_str,
+            source="Israel Cyber Directorate",
+            type="CVE Vulnerability",
+            domain="gov.il",
+            identifier="CVE-2024-88888",
+            info="Fallback advisory example from INCD",
+            severity="High",
+        ),
     ]
 
 
-# ==========================
-# מקור 1 – NVD (CVE Database)
-# ==========================
-
-def map_cvss_to_severity(score):
-    """
-    מיפוי ציון CVSS לרמת חומרה טקסטואלית.
-    אם אין ציון – נחזיר Medium כברירת מחדל.
-    """
-    if score is None:
-        return "Medium"
-    try:
-        s = float(score)
-    except Exception:
-        return "Medium"
-
-    if s >= 9.0:
-        return "Critical"
-    if s >= 7.0:
-        return "High"
-    if s >= 4.0:
-        return "Medium"
-    return "Low"
-
-
-def fetch_nvd():
-    """
-    מביא CVE מ-NVD (CVE API 2.0) ומנרמל לפורמט הדו"ח.
-    רק CVE שפורסמו בטווח השבוע האחרון.
-    """
-    print("[*] Fetching from NVD (CVE API 2.0)...")
-    data = []
+def fetch_nvd() -> List[ThreatRecord]:
+    logger.info("Fetching from NVD (CVE API 2.0)...")
+    records: List[ThreatRecord] = []
 
     if not NVD_API_KEY:
-        print("[!] NVD_API_KEY not set. Skipping NVD source.")
-        return data
-
-    base_url = "https://services.nvd.nist.gov/rest/json/cves/2.0"
+        logger.warning("NVD_API_KEY not set. Skipping NVD source.")
+        return records
 
     pub_start = REPORT_START.strftime("%Y-%m-%dT00:00:00.000Z")
     pub_end = REPORT_END.strftime("%Y-%m-%dT23:59:59.000Z")
-
     params = {
         "resultsPerPage": NVD_RESULTS_LIMIT,
         "startIndex": 0,
@@ -268,85 +235,66 @@ def fetch_nvd():
     }
 
     try:
-        resp = requests.get(base_url, headers=headers, params=params, timeout=30)
-        print("[DEBUG] NVD status:", resp.status_code)
-        print("[DEBUG] NVD Content-Type:", resp.headers.get("Content-Type", ""))
-
+        resp = requests.get(
+            "https://services.nvd.nist.gov/rest/json/cves/2.0",
+            headers=headers,
+            params=params,
+            timeout=30,
+        )
+        logger.debug("NVD status %s | content-type %s", resp.status_code, resp.headers.get("Content-Type"))
         resp.raise_for_status()
-
-        try:
-            json_data = resp.json()
-        except ValueError:
-            print("[!] NVD did not return JSON. Raw body (first 400 chars):")
-            print(resp.text[:400])
-            return data
-
+        json_data = resp.json()
         vulns = json_data.get("vulnerabilities", [])
         if not vulns:
-            print("[!] NVD returned no vulnerabilities in window.")
-            return data
+            logger.info("NVD returned no vulnerabilities in window.")
+            return records
 
-        for v in vulns:
-            cve_obj = v.get("cve", {})
-            cve_id = cve_obj.get("id", "")
+        for vuln in vulns:
+            cve_obj = vuln.get("cve", {})
+            cve_id = cve_obj.get("id")
             if not cve_id:
                 continue
 
-            # --- תאריך פרסום ---
             published = cve_obj.get("published", "")
             try:
-                dt = datetime.fromisoformat(published.replace("Z", "+00:00"))
-                date_str = dt.strftime("%Y-%m-%d")
+                published_dt = datetime.fromisoformat(str(published).replace("Z", "+00:00"))
+                date_str = published_dt.strftime("%Y-%m-%d")
             except Exception:
-                dt = REPORT_END
-                date_str = dt.strftime("%Y-%m-%d")
+                published_dt = REPORT_END
+                date_str = published_dt.strftime("%Y-%m-%d")
 
-            # בדיקה נוספת – שה-CVE באמת בחלון הזמן
-            if not is_in_report_window(dt):
+            if not is_in_report_window(published_dt):
                 continue
 
-
-            # --- תיאור קצר ---
             desc_list = cve_obj.get("descriptions") or []
             description = ""
-            for d in desc_list:
-                if d.get("lang") == "en":
-                    description = d.get("value", "")
+            for desc in desc_list:
+                if desc.get("lang") == "en":
+                    description = desc.get("value", "")
                     break
             if not description and desc_list:
                 description = desc_list[0].get("value", "")
-
             if description and len(description) > 180:
-                description = description[:177] + "..."
+                description = f"{description[:177]}..."
 
-            # --- ציוני CVSS / חומרה ---
             metrics = cve_obj.get("metrics", {}) or {}
             score = None
             severity_str = None
-
             if "cvssMetricV31" in metrics:
-                m = metrics["cvssMetricV31"][0]
-                cvss_data = m.get("cvssData", {})
+                cvss_data = metrics["cvssMetricV31"][0].get("cvssData", {})
                 score = cvss_data.get("baseScore")
                 severity_str = cvss_data.get("baseSeverity")
             elif "cvssMetricV30" in metrics:
-                m = metrics["cvssMetricV30"][0]
-                cvss_data = m.get("cvssData", {})
+                cvss_data = metrics["cvssMetricV30"][0].get("cvssData", {})
                 score = cvss_data.get("baseScore")
                 severity_str = cvss_data.get("baseSeverity")
             elif "cvssMetricV2" in metrics:
-                m = metrics["cvssMetricV2"][0]
-                cvss_data = m.get("cvssData", {})
+                cvss_data = metrics["cvssMetricV2"][0].get("cvssData", {})
                 score = cvss_data.get("baseScore")
                 severity_str = cvss_data.get("baseSeverity")
 
-            if severity_str:
-                severity = severity_str.title()
-            else:
-                severity = map_cvss_to_severity(score)
+            severity = severity_str.title() if severity_str else map_cvss_to_severity(score)
 
-            # --- Domain / Info ---
-            domain = "NVD"
             info_parts = []
             if score is not None:
                 info_parts.append(f"CVSS: {score}")
@@ -354,117 +302,87 @@ def fetch_nvd():
                 info_parts.append(description)
             info = "NVD CVE Entry" if not info_parts else " | ".join(info_parts)
 
-            data.append({
-                "Date": date_str,
-                "Source": "NVD",
-                "Type": "CVE Vulnerability",
-                "Domain": domain,
-                "Identifier": cve_id,
-                "Info": info,
-                "Severity": severity,
-            })
+            records.append(
+                ThreatRecord(
+                    date=date_str,
+                    source="NVD",
+                    type="CVE Vulnerability",
+                    domain="NVD",
+                    identifier=cve_id,
+                    info=info,
+                    severity=severity,
+                )
+            )
 
-        print(f"   -> Collected {len(data)} CVEs from NVD (last 7 days).")
+        logger.info("Collected %s CVEs from NVD (last 7 days).", len(records))
+    except Exception as exc:
+        logger.warning("Error fetching from NVD: %s", exc)
 
-    except Exception as e:
-        print(f"[!] Error fetching from NVD: {e}")
-
-    return data
-
+    return records
 
 
-
-# ==========================
-# מקור 2 – AlienVault OTX
-# ==========================
-def fetch_alienvault():
-    """
-    מביא IOC מ- AlienVault OTX:
-    - משתמש ב-endpoint pulses/subscribed
-    - עבור כל pulse, עובר על indicators
-    - מסנן לפי חלון שבועי
-    - כעת תומך במעבר בין כמה עמודים (page>1)
-    """
-    print("[*] Fetching from AlienVault OTX...")
-    data = []
+def fetch_alienvault() -> List[ThreatRecord]:
+    logger.info("Fetching from AlienVault OTX...")
+    records: List[ThreatRecord] = []
 
     if not OTX_API_KEY:
-        print("[!] OTX_API_KEY not set. Skipping AlienVault source.")
-        return data
+        logger.warning("OTX_API_KEY not set. Skipping AlienVault source.")
+        return records
 
-    headers = {
-        "X-OTX-API-KEY": OTX_API_KEY,
-        "User-Agent": HEADERS["User-Agent"],
-    }
-
-    total_indicators = 0
-    total_pulses = 0
-
-    # כמה pulses להביא בכל עמוד (קטן או שווה ל-OTX_PULSES_LIMIT)
-    PAGE_SIZE = min(20, OTX_PULSES_LIMIT)   # אפשר להגדיל ל-50 אם תרצה
-
+    headers = {"X-OTX-API-KEY": OTX_API_KEY, "User-Agent": HEADERS["User-Agent"]}
     page = 1
+    total_pulses = 0
+    total_indicators = 0
+    page_size = min(20, OTX_PULSES_LIMIT)
 
     try:
-        # כל עוד לא הגענו לתקרת pulses ולא לתקרת indicators
         while total_pulses < OTX_PULSES_LIMIT and total_indicators < OTX_INDICATORS_LIMIT:
             url = (
                 "https://otx.alienvault.com/api/v1/pulses/subscribed"
-                f"?limit={PAGE_SIZE}&page={page}"
+                f"?limit={page_size}&page={page}"
             )
-
             resp = requests.get(url, headers=headers, timeout=30)
-            print(f"[DEBUG] OTX status page {page}:", resp.status_code)
-            print("[DEBUG] OTX Content-Type:", resp.headers.get("Content-Type", ""))
-
+            logger.debug("OTX page %s status %s", page, resp.status_code)
             resp.raise_for_status()
-
-            try:
-                json_data = resp.json()
-            except ValueError:
-                print("[!] OTX did not return JSON. Raw body (first 400 chars):")
-                print(resp.text[:400])
-                break
-
+            json_data = resp.json()
             pulses = json_data.get("results", [])
             if not pulses:
-                print(f"[!] OTX returned no pulses on page {page}. Stopping.")
+                logger.info("OTX returned no pulses on page %s; stopping.", page)
                 break
 
             for pulse in pulses:
                 if total_pulses >= OTX_PULSES_LIMIT or total_indicators >= OTX_INDICATORS_LIMIT:
                     break
-
                 total_pulses += 1
 
                 pulse_name = pulse.get("name", "Unnamed pulse")
                 pulse_tags = pulse.get("tags", [])
                 indicators = pulse.get("indicators", [])
 
-                for ind in indicators:
+                for indicator in indicators:
                     if total_indicators >= OTX_INDICATORS_LIMIT:
                         break
-
-                    ind_type = ind.get("type", "")
-                    ind_value = ind.get("indicator", "")
-
+                    ind_type = indicator.get("type", "")
+                    ind_value = indicator.get("indicator", "")
                     if not ind_value:
                         continue
 
-                    raw_date = ind.get("created", "") or pulse.get("modified", "") or REPORT_END.isoformat()
+                    raw_date = (
+                        indicator.get("created", "")
+                        or pulse.get("modified", "")
+                        or REPORT_END.isoformat()
+                    )
                     try:
-                        dt = datetime.fromisoformat(str(raw_date).replace("Z", "+00:00"))
+                        created_dt = datetime.fromisoformat(str(raw_date).replace("Z", "+00:00"))
                     except Exception:
-                        dt = REPORT_END
+                        created_dt = REPORT_END
 
-                    if not is_in_report_window(dt):
+                    if not is_in_report_window(created_dt):
                         continue
 
-
-                    date_str = dt.strftime("%Y-%m-%d")
-
+                    date_str = created_dt.strftime("%Y-%m-%d")
                     domain = ""
-                    if ind_type in ("domain", "hostname", "IPv4"):
+                    if ind_type in {"domain", "hostname", "IPv4"}:
                         domain = ind_value
                     elif ind_type == "URL":
                         try:
@@ -474,174 +392,143 @@ def fetch_alienvault():
                             domain = ""
 
                     severity = classify_severity_otx(ind_type, pulse_tags)
-
                     tags_str = ", ".join(pulse_tags) if pulse_tags else "No tags"
                     info = f"Pulse: {pulse_name} | Tags: {tags_str}"
                     if len(info) > 200:
-                        info = info[:197] + "..."
+                        info = f"{info[:197]}..."
 
-                    data.append({
-                        "Date": date_str,
-                        "Source": "AlienVault OTX",
-                        "Type": ind_type,
-                        "Domain": domain,
-                        "Identifier": ind_value,
-                        "Info": info,
-                        "Severity": severity,
-                    })
-
+                    records.append(
+                        ThreatRecord(
+                            date=date_str,
+                            source="AlienVault OTX",
+                            type=ind_type,
+                            domain=domain,
+                            identifier=ind_value,
+                            info=info,
+                            severity=severity,
+                        )
+                    )
                     total_indicators += 1
 
-            # עוברים לעמוד הבא
             page += 1
 
-        print(
-            f"   -> Collected {total_indicators} indicators from OTX "
-            f"(checked {total_pulses} pulses, last 7 days)."
+        logger.info(
+            "Collected %s indicators from OTX (checked %s pulses, last 7 days).",
+            total_indicators,
+            total_pulses,
         )
+    except Exception as exc:
+        logger.warning("Error fetching from AlienVault OTX: %s", exc)
 
-    except Exception as e:
-        print(f"[!] Error fetching from AlienVault OTX: {e}")
-
-    return data
-
+    return records
 
 
-# ==========================
-# מקור 3 – URLHaus
-# ==========================
-
-def fetch_urlhaus():
-    """
-    מביא URLs זדוניים מ-URLHaus דרך ה-API הרשמי (urls/recent).
-    משתמש ב-Auth-Key שנשמר ב-URLHAUS_AUTH_KEY.
-    """
-    print("[*] Fetching from URLHaus (API)...")
-    data = []
+def fetch_urlhaus() -> List[ThreatRecord]:
+    logger.info("Fetching from URLHaus (API)...")
+    records: List[ThreatRecord] = []
 
     if not URLHAUS_AUTH_KEY:
-        print("[!] URLHAUS_AUTH_KEY not set. Skipping URLHaus source.")
-        return data
+        logger.warning("URLHAUS_AUTH_KEY not set. Skipping URLHaus source.")
+        return records
 
-    # endpoint: urls/recent/limit/N
     api_url = f"https://urlhaus-api.abuse.ch/v1/urls/recent/limit/{URLHAUS_LIMIT}/"
-    headers = {
-        "Auth-Key": URLHAUS_AUTH_KEY,
-        "User-Agent": HEADERS["User-Agent"],
-    }
+    headers = {"Auth-Key": URLHAUS_AUTH_KEY, "User-Agent": HEADERS["User-Agent"]}
 
     try:
         resp = requests.get(api_url, headers=headers, timeout=30)
         resp.raise_for_status()
-        js = resp.json()
+        payload = resp.json()
 
-        status = js.get("query_status")
-        if status != "ok":
-            print(f"[!] URLHaus returned status: {status}")
-            return data
+        if payload.get("query_status") != "ok":
+            logger.warning("URLHaus returned status: %s", payload.get("query_status"))
+            return records
 
-        urls = js.get("urls", [])
-        print(f"   -> URLHaus returned {len(urls)} URLs (before date filter).")
+        urls = payload.get("urls", [])
+        logger.info("URLHaus returned %s URLs (before date filter).", len(urls))
 
         for entry in urls:
-            # date_added מגיע כ- "YYYY-MM-DD HH:MM:SS UTC" – ניקח רק את החלק של התאריך
             raw_date = entry.get("date_added", "")
-            date_str = raw_date.split(" ")[0] if raw_date else datetime.now().strftime("%Y-%m-%d")
-
+            date_str = raw_date.split(" ")[0] if raw_date else datetime.utcnow().strftime("%Y-%m-%d")
             url_value = entry.get("url", "")
             host = entry.get("host", "")
             threat = entry.get("threat", "")
             tags = entry.get("tags") or []
             url_id = entry.get("id")
 
-            # נבנה מחרוזת Info עשירה: ID + threat + tags
             tags_str = ", ".join(tags) if tags else "No tags"
             info = f"URLHaus ID: {url_id} | Threat: {threat or 'unknown'} | Tags: {tags_str}"
             if len(info) > 140:
-                info = info[:137] + "..."
+                info = f"{info[:137]}..."
 
-            # חומרת URLHaus – נשאיר כ-Medium כרגע (אפשר לשפר בהמשך לפי threat/tags)
-            severity = "Medium"
+            records.append(
+                ThreatRecord(
+                    date=date_str,
+                    source="URLHaus",
+                    type="Malicious URL",
+                    domain=host,
+                    identifier=url_value,
+                    info=info,
+                    severity="Medium",
+                )
+            )
 
-            data.append({
-                "Date": date_str,
-                "Source": "URLHaus",
-                "Type": "Malicious URL",
-                "Domain": host,
-                "Identifier": url_value,
-                "Info": info,
-                "Severity": severity,
-            })
+    except Exception as exc:
+        logger.warning("Error fetching from URLHaus API: %s", exc)
 
-    except Exception as e:
-        print(f"[!] Error fetching from URLHaus API: {e}")
-
-    return data
-
+    return records
 
 
-# ==========================
-# איסוף, נרמול, הסרת כפילויות, מיון
-# ==========================
+# ---------------------------------------------------------------------------
+# Collection, normalization, reporting
+# ---------------------------------------------------------------------------
+def collect_all_sources() -> pd.DataFrame:
+    all_records: List[ThreatRecord] = []
+    all_records.extend(fetch_nvd())
+    all_records.extend(fetch_alienvault())
+    all_records.extend(fetch_urlhaus())
+    all_records.extend(fetch_incd())
 
-def collect_all_sources():
-    all_rows = []
-
-    # 1. NVD – חולשות רשמיות
-    all_rows.extend(fetch_nvd())
-
-    # 2. AlienVault – IOC על בסיס pulses
-    all_rows.extend(fetch_alienvault())
-
-    # 3. URLHaus – URL זדוניים
-    all_rows.extend(fetch_urlhaus())
-
-    all_rows.extend(fetch_incd())
-
-    if not all_rows:
+    if not all_records:
         return pd.DataFrame()
 
-    df = pd.DataFrame(all_rows)
-
-    columns_order = ["Date", "Severity", "Source", "Type", "Domain", "Identifier", "Info"]
+    df = pd.DataFrame([r.to_dict() for r in all_records])
+    columns_order = ["date", "severity", "source", "type", "domain", "identifier", "info"]
     for col in columns_order:
         if col not in df.columns:
             df[col] = ""
     df = df[columns_order]
 
-    # הסרת כפילויות
-    df = df.drop_duplicates(subset=["Source", "Type", "Identifier"], keep="first")
-
-    # המרה לתאריך למיון
+    df = df.drop_duplicates(subset=["source", "type", "identifier"], keep="first")
     try:
-        df["DateSort"] = pd.to_datetime(df["Date"], errors="coerce", utc=True)
+        df["DateSort"] = pd.to_datetime(df["date"], errors="coerce", utc=True)
     except Exception:
         df["DateSort"] = pd.NaT
+    df = df.sort_values(by=["DateSort"], ascending=False).drop(columns=["DateSort"])
 
-    # מיון לפי תאריך בלבד (חדש → ישן)
-    df = df.sort_values(by=["DateSort"], ascending=False)
-
-    # מחיקת עמודת העזר
-    df = df.drop(columns=["DateSort"])
-
+    df = df.rename(columns={
+        "date": "Date",
+        "severity": "Severity",
+        "source": "Source",
+        "type": "Type",
+        "domain": "Domain",
+        "identifier": "Identifier",
+        "info": "Info",
+    })
     return df
 
 
-# ==========================
-# HTML Report
-# ==========================
-
-def generate_html_report(df):
+def generate_html_report(df: pd.DataFrame) -> str:
     df_display = df.copy()
-    df_display["Severity"] = df_display["Severity"].replace({
-        "Critical": '<span class="badge crit">CRITICAL</span>',
-        "High": '<span class="badge high">HIGH</span>',
-        "Medium": '<span class="badge med">MEDIUM</span>',
-        "Low": '<span class="badge low">LOW</span>',
-    })
+    df_display["Severity"] = df_display["Severity"].replace(
+        {
+            "Critical": '<span class="badge crit">CRITICAL</span>',
+            "High": '<span class="badge high">HIGH</span>',
+            "Medium": '<span class="badge med">MEDIUM</span>',
+            "Low": '<span class="badge low">LOW</span>',
+        }
+    )
 
     table_html = df_display.to_html(index=False, escape=False)
-
     total_threats = len(df)
     active_sources = df["Source"].nunique()
     report_date = REPORT_END.strftime("%d/%m/%Y")
@@ -723,62 +610,53 @@ def generate_html_report(df):
     return html
 
 
-def generate_reports(df):
+def generate_reports(df: pd.DataFrame) -> None:
     today = REPORT_END.strftime("%Y%m%d")
 
     csv_name = f"threats_{today}.csv"
     df.to_csv(csv_name, index=False, encoding="utf-8-sig")
-    print(f"[+] Saved CSV report: {csv_name}")
+    logger.info("Saved CSV report: %s", csv_name)
 
     html_name = f"report_{today}.html"
     html_content = generate_html_report(df)
     with open(html_name, "w", encoding="utf-8") as f:
         f.write(html_content)
-
-    print(f"[+] Saved HTML report: {html_name}")
-    webbrowser.open("file://" + os.path.abspath(html_name))
+    logger.info("Saved HTML report: %s", html_name)
+    webbrowser.open(f"file://{os.path.abspath(html_name)}")
 
     excel_name = f"report_{today}.xlsx"
-
-    # יצירת קובץ אקסל בתיקיית הפרויקט
     df.to_excel(excel_name, index=False)
     excel_abs = os.path.abspath(excel_name)
-    print(f"[+] Saved Excel report in project folder: {excel_abs}")
+    logger.info("Saved Excel report in project folder: %s", excel_abs)
 
-    # "הורדה" לתיקיית Downloads של המשתמש
     downloads_dir = os.path.join(os.path.expanduser("~"), "Downloads")
     os.makedirs(downloads_dir, exist_ok=True)
-
     excel_download_path = os.path.join(downloads_dir, excel_name)
     shutil.copyfile(excel_abs, excel_download_path)
-    print(f"[+] Excel report copied to Downloads: {excel_download_path}")
+    logger.info("Excel report copied to Downloads: %s", excel_download_path)
 
-    # פתיחה אוטומטית של קובץ האקסל (Windows)
     try:
         os.startfile(excel_download_path)
-        print("[+] Excel report opened automatically.")
-    except Exception as e:
-        print(f"[!] Could not auto-open Excel report: {e}")
+        logger.info("Excel report opened automatically.")
+    except Exception as exc:
+        logger.warning("Could not auto-open Excel report: %s", exc)
 
 
-# ==========================
-# main
-# ==========================
-
-def main():
-    print(
-        "Starting Threat Aggregator (Weekly window: "
-        f"{REPORT_START.strftime('%Y-%m-%d')} -> {REPORT_END.strftime('%Y-%m-%d')})\n"
+# ---------------------------------------------------------------------------
+# Entrypoint
+# ---------------------------------------------------------------------------
+def main() -> None:
+    logger.info(
+        "Starting Threat Aggregator (Weekly window: %s -> %s)",
+        REPORT_START.strftime("%Y-%m-%d"),
+        REPORT_END.strftime("%Y-%m-%d"),
     )
     df = collect_all_sources()
-
     if df.empty:
-        print("[X] No data collected. Check API keys / network.")
+        logger.error("No data collected. Check API keys / network.")
         return
 
-    print("\n[DEBUG] Sources count:")
-    print(df["Source"].value_counts(), "\n")
-
+    logger.info("Sources count:\n%s", df["Source"].value_counts())
     generate_reports(df)
 
 

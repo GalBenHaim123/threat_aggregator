@@ -1,12 +1,6 @@
 ﻿Date,Severity,Source,Type,Domain,Identifier,Info
-2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/forge/Photo.scr,URLHaus ID: 3731425 | Threat: malware_download | Tags: CoinMiner
-2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/ea636363/Roblox-Arctic-Script/releases/download/v2.0.4/Roblox.Arctic.Script.v2.0.4.zip,"URLHaus ID: 3731497 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-11,Medium,URLHaus,Malicious URL,boost.bu1gep2lest.ru,https://boost.bu1gep2lest.ru/kgpcyu7z,URLHaus ID: 3731471 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/t0rp24/qb-foodorder/releases/download/2.4.7/qb-foodorder.v2.4.7.zip,"URLHaus ID: 3731472 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/mr441/szedo_harvestzones/releases/download/v1.0.5/szedo_harvestzones.v1.0.5.zip,"URLHaus ID: 3731473 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/AlanFara/x99-vehicleradio/releases/download/v2.6.9/x99-vehicleradio.v2.6.9.zip,"URLHaus ID: 3731474 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-11,Medium,URLHaus,Malicious URL,trace.bu1gep2lest.ru,https://trace.bu1gep2lest.ru/k6e9iubz,URLHaus ID: 3731475 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,trace.bu1gep2lest.ru,https://trace.bu1gep2lest.ru/c5pnf6vx,URLHaus ID: 3731476 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,dps-radar.cfd,https://dps-radar.cfd/download.php,"URLHaus ID: 3731445 | Threat: malware_download | Tags: apk , banker"
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/bboyfuria/custom_addons/releases/download/1.2.3/custom_addons_v1.2.3.zip,"URLHaus ID: 3731489 | Threat: malware_download | Tags: SmartLoader, zip"
 2025-12-11,Medium,URLHaus,Malicious URL,9pt.bu1gep2lest.ru,https://9pt.bu1gep2lest.ru/xsuy9j33,URLHaus ID: 3731477 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/loganbtchss/pixel_logs/releases/download/eleonorite/eleonorite.for.pixel_logs.zip,"URLHaus ID: 3731478 | Threat: malware_download | Tags: SmartLoader, zip"
 2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/HUSAm0093/DM-Arena-FiveM/releases/download/v3.1.4/DM.Arena.FiveM.v3.1.4.zip,"URLHaus ID: 3731479 | Threat: malware_download | Tags: SmartLoader, zip"
@@ -19,21 +13,24 @@
 2025-12-11,Medium,URLHaus,Malicious URL,221.15.93.11,http://221.15.93.11:54891/i,"URLHaus ID: 3731486 | Threat: malware_download | Tags: 32-bit, elf, Mozi"
 2025-12-11,Medium,URLHaus,Malicious URL,175.30.116.39,http://175.30.116.39:48977/i,"URLHaus ID: 3731487 | Threat: malware_download | Tags: 32-bit, elf, mirai, Mozi"
 2025-12-11,Medium,URLHaus,Malicious URL,61.52.76.111,http://61.52.76.111:60338/i,"URLHaus ID: 3731488 | Threat: malware_download | Tags: 32-bit, elf, Mozi"
-2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/bboyfuria/custom_addons/releases/download/1.2.3/custom_addons_v1.2.3.zip,"URLHaus ID: 3731489 | Threat: malware_download | Tags: SmartLoader, zip"
 2025-12-11,Medium,URLHaus,Malicious URL,115.50.51.182,http://115.50.51.182:51856/i,"URLHaus ID: 3731492 | Threat: malware_download | Tags: 32-bit, elf, Mozi"
+2025-12-11,Medium,URLHaus,Malicious URL,trace.bu1gep2lest.ru,https://trace.bu1gep2lest.ru/k6e9iubz,URLHaus ID: 3731475 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,85.15.111.160,http://85.15.111.160:51636/i,"URLHaus ID: 3731491 | Threat: malware_download | Tags: 32-bit, elf, Mozi"
 2025-12-11,Medium,URLHaus,Malicious URL,110.39.235.130,http://110.39.235.130:46069/i,"URLHaus ID: 3731490 | Threat: malware_download | Tags: 32-bit, elf, Mozi"
 2025-12-11,Medium,URLHaus,Malicious URL,xk.po5tr2diat.ru,https://xk.po5tr2diat.ru/k777as0x,URLHaus ID: 3731493 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/h3llSd/FiveM-External-Cheat/raw/refs/heads/main/Loader.exe,"URLHaus ID: 3731494 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/cha1llme/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731495 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-11,Medium,URLHaus,Malicious URL,boost.bu1gep2lest.ru,https://boost.bu1gep2lest.ru/7v6hpfzq,URLHaus ID: 3731470 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/m1lleys/mills/refs/heads/main/m5n6b7v8.exe,"URLHaus ID: 3731469 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-11,Medium,URLHaus,Malicious URL,cxks9.bu1gep2lest.ru,https://cxks9.bu1gep2lest.ru/2brzxvur,URLHaus ID: 3731468 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,96.44.154.209,http://96.44.154.209/zkiLE255.bin,URLHaus ID: 3731453 | Threat: malware_download | Tags: No tags
-2025-12-11,Medium,URLHaus,Malicious URL,apsom.org,https://apsom.org/motphim.exe,URLHaus ID: 3731442 | Threat: malware_download | Tags: vanillarat
-2025-12-11,Medium,URLHaus,Malicious URL,dps-radar.cfd,https://dps-radar.cfd/download.php,"URLHaus ID: 3731445 | Threat: malware_download | Tags: apk , banker"
-2025-12-11,Medium,URLHaus,Malicious URL,pub-de201ae7e2b5462bb418c93efd6fb8a5.r2.dev,https://pub-de201ae7e2b5462bb418c93efd6fb8a5.r2.dev/proposal.exe,URLHaus ID: 3731444 | Threat: malware_download | Tags: No tags
-2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/5297474040/5qEOpbg.bat,"URLHaus ID: 3731446 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
+2025-12-11,Medium,URLHaus,Malicious URL,xk.po5tr2diat.ru,https://xk.po5tr2diat.ru/q9qcksb2,URLHaus ID: 3731496 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/ea636363/Roblox-Arctic-Script/releases/download/v2.0.4/Roblox.Arctic.Script.v2.0.4.zip,"URLHaus ID: 3731497 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,3i.po5tr2diat.ru,https://3i.po5tr2diat.ru/k12ra21w,URLHaus ID: 3731498 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,fusion.po5tr2diat.ru,https://fusion.po5tr2diat.ru/hb0xi3qe,URLHaus ID: 3731499 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/aytemiz97/my_files/raw/refs/heads/main/Application.zip,"URLHaus ID: 3731500 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/kenneth0307/BloxRatP/releases/download/2.4.7-alpha.5/BloxRatP.v2.4.7-alpha.5.zip,"URLHaus ID: 3731501 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,gate.po5tr2diat.ru,https://gate.po5tr2diat.ru/nezva8f8,URLHaus ID: 3731502 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,trace.bu1gep2lest.ru,https://trace.bu1gep2lest.ru/c5pnf6vx,URLHaus ID: 3731476 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/AlanFara/x99-vehicleradio/releases/download/v2.6.9/x99-vehicleradio.v2.6.9.zip,"URLHaus ID: 3731474 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.mpsl,"URLHaus ID: 3731563 | Threat: malware_download | Tags: elf, ua-wget"
+2025-12-11,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/raajpuneet/FiveM-Mod-Menu/main/starlet/FiveM-Mod-Menu.zip,"URLHaus ID: 3731459 | Threat: malware_download | Tags: SmartLoader, zip"
 2025-12-11,Medium,URLHaus,Malicious URL,apsom.org,https://apsom.org/Stub.exe,URLHaus ID: 3731447 | Threat: malware_download | Tags: No tags
 2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.i468,"URLHaus ID: 3731448 | Threat: malware_download | Tags: elf, ua-wget"
 2025-12-11,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/telnetd,"URLHaus ID: 3731449 | Threat: malware_download | Tags: elf, ua-wget"
@@ -41,31 +38,29 @@
 2025-12-11,Medium,URLHaus,Malicious URL,92.112.125.172,http://92.112.125.172/z/89/arm4,"URLHaus ID: 3731452 | Threat: malware_download | Tags: elf, ua-wget"
 2025-12-11,Medium,URLHaus,Malicious URL,92.112.125.172,http://92.112.125.172/arm4,"URLHaus ID: 3731451 | Threat: malware_download | Tags: elf, ua-wget"
 2025-12-11,Medium,URLHaus,Malicious URL,96.44.154.209,http://96.44.154.209/qLNtbwloCueKCRLnLbq239.bin,URLHaus ID: 3731454 | Threat: malware_download | Tags: No tags
+2025-12-11,Medium,URLHaus,Malicious URL,96.44.154.209,http://96.44.154.209/zkiLE255.bin,URLHaus ID: 3731453 | Threat: malware_download | Tags: No tags
 2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/7359455182/GqrPY34.exe,"URLHaus ID: 3731455 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
-2025-12-11,Medium,URLHaus,Malicious URL,5idt.c0rres5cour.ru,https://5idt.c0rres5cour.ru/coy5zoeh,URLHaus ID: 3731467 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,86.54.24.29,http://86.54.24.29/Wesnoth.exe,URLHaus ID: 3731456 | Threat: malware_download | Tags: exe
 2025-12-11,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/kateynonharmonic352/thc-legacy-rp/main/amygdaloncus/thc-legacy-rp-3.4.zip,"URLHaus ID: 3731457 | Threat: malware_download | Tags: SmartLoader, zip"
 2025-12-11,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/SIXXTAR/GTA-FiveM-Cheat/main/RVX-4_External/GTA-FiveM-Cheat_v3.6.zip,"URLHaus ID: 3731458 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-11,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/raajpuneet/FiveM-Mod-Menu/main/starlet/FiveM-Mod-Menu.zip,"URLHaus ID: 3731459 | Threat: malware_download | Tags: SmartLoader, zip"
 2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/2043702969/U4bzPUF.exe,"URLHaus ID: 3731460 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey, Vidar"
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/mr441/szedo_harvestzones/releases/download/v1.0.5/szedo_harvestzones.v1.0.5.zip,"URLHaus ID: 3731473 | Threat: malware_download | Tags: SmartLoader, zip"
 2025-12-11,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/monkeybey/al_crosshair/main/Mutisia/al_crosshair.zip,"URLHaus ID: 3731461 | Threat: malware_download | Tags: SmartLoader, zip"
 2025-12-11,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/opiostephen/qb-playtime/main/dysphrenia/qb-playtime.zip,"URLHaus ID: 3731462 | Threat: malware_download | Tags: SmartLoader, zip"
 2025-12-11,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/rajveer2589/DS_Interact/main/hemihedrism/DS_Interact.zip,"URLHaus ID: 3731463 | Threat: malware_download | Tags: SmartLoader, zip"
 2025-12-11,Medium,URLHaus,Malicious URL,njs.c0rres5cour.ru,https://njs.c0rres5cour.ru/b2aep3yv,URLHaus ID: 3731464 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/DayvidBlack/Bob/main/unsprouted/Bob.zip,"URLHaus ID: 3731465 | Threat: malware_download | Tags: SmartLoader, zip"
 2025-12-11,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/anuj4sharma/FiveM-Mod-Menu/main/weeshy/FiveM-Mod-Menu.zip,"URLHaus ID: 3731466 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-11,Medium,URLHaus,Malicious URL,xk.po5tr2diat.ru,https://xk.po5tr2diat.ru/q9qcksb2,URLHaus ID: 3731496 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,3i.po5tr2diat.ru,https://3i.po5tr2diat.ru/k12ra21w,URLHaus ID: 3731498 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/images/AV.scr,URLHaus ID: 3731441 | Threat: malware_download | Tags: CoinMiner
-2025-12-11,Medium,URLHaus,Malicious URL,fusion.po5tr2diat.ru,https://fusion.po5tr2diat.ru/hb0xi3qe,URLHaus ID: 3731499 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,tqe.bra9lupt5ev.ru,https://tqe.bra9lupt5ev.ru/cljr9722,URLHaus ID: 3731528 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,tqe.bra9lupt5ev.ru,https://tqe.bra9lupt5ev.ru/o04yuwoy,URLHaus ID: 3731529 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/5297474040/ZOeZNqS.exe,"URLHaus ID: 3731530 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
-2025-12-11,Medium,URLHaus,Malicious URL,fbk.bra9lupt5ev.ru,https://fbk.bra9lupt5ev.ru/ro6ebwbi,URLHaus ID: 3731531 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,fbk.bra9lupt5ev.ru,https://fbk.bra9lupt5ev.ru/ollx5y1p,URLHaus ID: 3731532 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/7834156259/8lse2wy.exe,"URLHaus ID: 3731533 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
-2025-12-11,Medium,URLHaus,Malicious URL,i1.bra9lupt5ev.ru,https://i1.bra9lupt5ev.ru/b5nc3hqd,URLHaus ID: 3731534 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,i1.bra9lupt5ev.ru,https://i1.bra9lupt5ev.ru/8al1lns3,URLHaus ID: 3731535 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,5idt.c0rres5cour.ru,https://5idt.c0rres5cour.ru/coy5zoeh,URLHaus ID: 3731467 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,cxks9.bu1gep2lest.ru,https://cxks9.bu1gep2lest.ru/2brzxvur,URLHaus ID: 3731468 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/m1lleys/mills/refs/heads/main/m5n6b7v8.exe,"URLHaus ID: 3731469 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-11,Medium,URLHaus,Malicious URL,boost.bu1gep2lest.ru,https://boost.bu1gep2lest.ru/7v6hpfzq,URLHaus ID: 3731470 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,boost.bu1gep2lest.ru,https://boost.bu1gep2lest.ru/kgpcyu7z,URLHaus ID: 3731471 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/t0rp24/qb-foodorder/releases/download/2.4.7/qb-foodorder.v2.4.7.zip,"URLHaus ID: 3731472 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/Avocado-dotcom/Brookhaven--t4/releases/download/v1.0.0/Brookhaven.t4.v1.0.0.zip,"URLHaus ID: 3731503 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/HOXXVS1/Anime-Rangers-X-Script/releases/download/2.1.9/Anime.Rangers.X.Script.v2.1.9.zip,"URLHaus ID: 3731504 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/troykja/Arise-Crossover-Script/releases/download/v3.5.7/Arise.Crossover.Script.v3.5.7.zip,"URLHaus ID: 3731505 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,joke.ha1fakos0l.ru,https://joke.ha1fakos0l.ru/r4zoojqi,URLHaus ID: 3731548 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,field.f1ippme7re.ru,https://field.f1ippme7re.ru/4d86271o,URLHaus ID: 3731536 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,field.f1ippme7re.ru,https://field.f1ippme7re.ru/tg51b8ip,URLHaus ID: 3731537 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,flip.f1ippme7re.ru,https://flip.f1ippme7re.ru/sq88csc3,URLHaus ID: 3731539 | Threat: malware_download | Tags: ClearFake
@@ -78,28 +73,30 @@
 2025-12-11,Medium,URLHaus,Malicious URL,core.ha1fakos0l.ru,https://core.ha1fakos0l.ru/ghafkfs3,URLHaus ID: 3731545 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,ely.ha1fakos0l.ru,https://ely.ha1fakos0l.ru/uujtx9ij,URLHaus ID: 3731546 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,ely.ha1fakos0l.ru,https://ely.ha1fakos0l.ru/1gjqwtdl,URLHaus ID: 3731547 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,joke.ha1fakos0l.ru,https://joke.ha1fakos0l.ru/r4zoojqi,URLHaus ID: 3731548 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.i686,"URLHaus ID: 3731551 | Threat: malware_download | Tags: elf, ua-wget"
+2025-12-11,Medium,URLHaus,Malicious URL,46.chel0be7upt.ru,https://46.chel0be7upt.ru/kfozmt82,URLHaus ID: 3731506 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.arm7,"URLHaus ID: 3731550 | Threat: malware_download | Tags: elf, ua-wget"
 2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.arm,"URLHaus ID: 3731549 | Threat: malware_download | Tags: elf, ua-wget"
 2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.arm6,"URLHaus ID: 3731555 | Threat: malware_download | Tags: elf, ua-wget"
-2025-12-11,Medium,URLHaus,Malicious URL,f0.bra9lupt5ev.ru,https://f0.bra9lupt5ev.ru/jy6ysseq,URLHaus ID: 3731527 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,648.r0cketf2rm.ru,https://648.r0cketf2rm.ru/o033vckb,URLHaus ID: 3731526 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,648.r0cketf2rm.ru,https://648.r0cketf2rm.ru/xvurn0am,URLHaus ID: 3731525 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,v8r7.effu5rep7eh.ru,https://v8r7.effu5rep7eh.ru/vtn6c2an,URLHaus ID: 3731511 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/aytemiz97/my_files/raw/refs/heads/main/Application.zip,"URLHaus ID: 3731500 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/kenneth0307/BloxRatP/releases/download/2.4.7-alpha.5/BloxRatP.v2.4.7-alpha.5.zip,"URLHaus ID: 3731501 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-11,Medium,URLHaus,Malicious URL,gate.po5tr2diat.ru,https://gate.po5tr2diat.ru/nezva8f8,URLHaus ID: 3731502 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/Avocado-dotcom/Brookhaven--t4/releases/download/v1.0.0/Brookhaven.t4.v1.0.0.zip,"URLHaus ID: 3731503 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/HOXXVS1/Anime-Rangers-X-Script/releases/download/2.1.9/Anime.Rangers.X.Script.v2.1.9.zip,"URLHaus ID: 3731504 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/troykja/Arise-Crossover-Script/releases/download/v3.5.7/Arise.Crossover.Script.v3.5.7.zip,"URLHaus ID: 3731505 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-11,Medium,URLHaus,Malicious URL,46.chel0be7upt.ru,https://46.chel0be7upt.ru/kfozmt82,URLHaus ID: 3731506 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.sh4,"URLHaus ID: 3731554 | Threat: malware_download | Tags: elf, ua-wget"
+2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.sparc,"URLHaus ID: 3731553 | Threat: malware_download | Tags: elf, ua-wget"
+2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.mips,"URLHaus ID: 3731552 | Threat: malware_download | Tags: elf, ua-wget"
+2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.x86_64,"URLHaus ID: 3731562 | Threat: malware_download | Tags: elf, ua-wget"
+2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.m68k,"URLHaus ID: 3731561 | Threat: malware_download | Tags: elf, ua-wget"
+2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.mips64,"URLHaus ID: 3731560 | Threat: malware_download | Tags: elf, ua-wget"
+2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.arc,"URLHaus ID: 3731559 | Threat: malware_download | Tags: elf, ua-wget"
+2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.ppc,"URLHaus ID: 3731558 | Threat: malware_download | Tags: elf, ua-wget"
+2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.arm5,"URLHaus ID: 3731557 | Threat: malware_download | Tags: elf, ua-wget"
+2025-12-11,Medium,URLHaus,Malicious URL,i1.bra9lupt5ev.ru,https://i1.bra9lupt5ev.ru/8al1lns3,URLHaus ID: 3731535 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,i1.bra9lupt5ev.ru,https://i1.bra9lupt5ev.ru/b5nc3hqd,URLHaus ID: 3731534 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/7834156259/8lse2wy.exe,"URLHaus ID: 3731533 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
+2025-12-11,Medium,URLHaus,Malicious URL,fbk.bra9lupt5ev.ru,https://fbk.bra9lupt5ev.ru/ollx5y1p,URLHaus ID: 3731532 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,nzhr.chel0be7upt.ru,https://nzhr.chel0be7upt.ru/68qr1km1,URLHaus ID: 3731507 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,rocket.chel0be7upt.ru,https://rocket.chel0be7upt.ru/4qh4jjtc,URLHaus ID: 3731508 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,omega.chel0be7upt.ru,https://omega.chel0be7upt.ru/3gtewog1,URLHaus ID: 3731509 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,omega.chel0be7upt.ru,https://omega.chel0be7upt.ru/122mj4co,URLHaus ID: 3731510 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,v8r7.effu5rep7eh.ru,https://v8r7.effu5rep7eh.ru/vtn6c2an,URLHaus ID: 3731511 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,byte.effu5rep7eh.ru,https://byte.effu5rep7eh.ru/aozas33v,URLHaus ID: 3731512 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,cdr.r0cketf2rm.ru,https://cdr.r0cketf2rm.ru/zxj6zjws,URLHaus ID: 3731524 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,byte.effu5rep7eh.ru,https://byte.effu5rep7eh.ru/1p5axj0q,URLHaus ID: 3731513 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,flame.effu5rep7eh.ru,https://flame.effu5rep7eh.ru/327wdiql,URLHaus ID: 3731514 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,flame.effu5rep7eh.ru,https://flame.effu5rep7eh.ru/3f08kc2g,URLHaus ID: 3731515 | Threat: malware_download | Tags: ClearFake
@@ -111,11 +108,18 @@
 2025-12-11,Medium,URLHaus,Malicious URL,letter.r0cketf2rm.ru,https://letter.r0cketf2rm.ru/y9d6w0kn,URLHaus ID: 3731521 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,delta.r0cketf2rm.ru,https://delta.r0cketf2rm.ru/fw8wuvl6,URLHaus ID: 3731522 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,cdr.r0cketf2rm.ru,https://cdr.r0cketf2rm.ru/f37nfkzn,URLHaus ID: 3731523 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/Photo.lnk,URLHaus ID: 3731443 | Threat: malware_download | Tags: No tags
-2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/images/Photo.scr,URLHaus ID: 3731440 | Threat: malware_download | Tags: CoinMiner
-2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.sparc,"URLHaus ID: 3731553 | Threat: malware_download | Tags: elf, ua-wget"
-2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.m68k,"URLHaus ID: 3731385 | Threat: malware_download | Tags: mirai, opendir"
-2025-12-11,Medium,URLHaus,Malicious URL,45.131.64.176,http://45.131.64.176/pftp,"URLHaus ID: 3731357 | Threat: malware_download | Tags: mirai, opendir"
+2025-12-11,Medium,URLHaus,Malicious URL,cdr.r0cketf2rm.ru,https://cdr.r0cketf2rm.ru/zxj6zjws,URLHaus ID: 3731524 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,648.r0cketf2rm.ru,https://648.r0cketf2rm.ru/xvurn0am,URLHaus ID: 3731525 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,648.r0cketf2rm.ru,https://648.r0cketf2rm.ru/o033vckb,URLHaus ID: 3731526 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,f0.bra9lupt5ev.ru,https://f0.bra9lupt5ev.ru/jy6ysseq,URLHaus ID: 3731527 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,tqe.bra9lupt5ev.ru,https://tqe.bra9lupt5ev.ru/cljr9722,URLHaus ID: 3731528 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,tqe.bra9lupt5ev.ru,https://tqe.bra9lupt5ev.ru/o04yuwoy,URLHaus ID: 3731529 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/5297474040/ZOeZNqS.exe,"URLHaus ID: 3731530 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
+2025-12-11,Medium,URLHaus,Malicious URL,fbk.bra9lupt5ev.ru,https://fbk.bra9lupt5ev.ru/ro6ebwbi,URLHaus ID: 3731531 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/5297474040/5qEOpbg.bat,"URLHaus ID: 3731446 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
+2025-12-11,Medium,URLHaus,Malicious URL,pub-de201ae7e2b5462bb418c93efd6fb8a5.r2.dev,https://pub-de201ae7e2b5462bb418c93efd6fb8a5.r2.dev/proposal.exe,URLHaus ID: 3731444 | Threat: malware_download | Tags: No tags
+2025-12-11,Medium,URLHaus,Malicious URL,apsom.org,https://apsom.org/motphim.exe,URLHaus ID: 3731442 | Threat: malware_download | Tags: vanillarat
+2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.arm6,"URLHaus ID: 3731379 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,45.131.64.176,http://45.131.64.176/cron,"URLHaus ID: 3731356 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,45.131.64.176,http://45.131.64.176/bash,"URLHaus ID: 3731355 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,45.131.64.176,http://45.131.64.176/sshd,"URLHaus ID: 3731354 | Threat: malware_download | Tags: mirai, opendir"
@@ -128,8 +132,8 @@
 2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/Labelloperc80.i686,"URLHaus ID: 3731367 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/Labelloperc80.spc,"URLHaus ID: 3731366 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.ppc,"URLHaus ID: 3731380 | Threat: malware_download | Tags: mirai, opendir"
-2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.arm6,"URLHaus ID: 3731379 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/debug,"URLHaus ID: 3731378 | Threat: malware_download | Tags: mirai, opendir"
+2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.i686,"URLHaus ID: 3731383 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.spc,"URLHaus ID: 3731377 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.arm5,"URLHaus ID: 3731376 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.sh4,"URLHaus ID: 3731375 | Threat: malware_download | Tags: mirai, opendir"
@@ -140,14 +144,16 @@
 2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.arm7,"URLHaus ID: 3731370 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/Labelloperc80.arm,"URLHaus ID: 3731369 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/Labelloperc80.ppc,"URLHaus ID: 3731368 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
+2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.arm,"URLHaus ID: 3731386 | Threat: malware_download | Tags: mirai, opendir"
+2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.m68k,"URLHaus ID: 3731385 | Threat: malware_download | Tags: mirai, opendir"
+2025-12-11,Medium,URLHaus,Malicious URL,45.131.64.176,http://45.131.64.176/pftp,"URLHaus ID: 3731357 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,45.131.64.176,http://45.131.64.176/wget,"URLHaus ID: 3731358 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,45.131.64.176,http://45.131.64.176/ftp,"URLHaus ID: 3731359 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,45.131.64.176,http://45.131.64.176/ntpd,"URLHaus ID: 3731360 | Threat: malware_download | Tags: mirai, opendir"
-2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/Labelloperc80.x86_64,"URLHaus ID: 3731344 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
-2025-12-11,High,Israel Cyber Directorate,CVE Vulnerability,gov.il,CVE-2025-55056,INCD advisory (Selenium scraping)
-2025-12-11,High,Israel Cyber Directorate,CVE Vulnerability,gov.il,CVE-2025-55059,INCD advisory (Selenium scraping)
-2025-12-11,High,Israel Cyber Directorate,CVE Vulnerability,gov.il,CVE-2025-55055,INCD advisory (Selenium scraping)
-2025-12-11,High,Israel Cyber Directorate,CVE Vulnerability,gov.il,CVE-2025-55050,INCD advisory (Selenium scraping)
+2025-12-11,High,Israel Cyber Directorate,CVE Vulnerability,gov.il,CVE-2025-55057,INCD advisory (Selenium scraping)
+2025-12-11,High,Israel Cyber Directorate,CVE Vulnerability,gov.il,CVE-2025-55058,INCD advisory (Selenium scraping)
+2025-12-11,High,Israel Cyber Directorate,CVE Vulnerability,gov.il,CVE-2025-55052,INCD advisory (Selenium scraping)
+2025-12-11,High,Israel Cyber Directorate,CVE Vulnerability,gov.il,CVE-2025-55051,INCD advisory (Selenium scraping)
 2025-12-11,Medium,URLHaus,Malicious URL,208.85.21.245,http://208.85.21.245/cloud/23172837484.ocx,"URLHaus ID: 3731337 | Threat: malware_download | Tags: ocx, opendir, WsgiDAV"
 2025-12-11,Medium,URLHaus,Malicious URL,208.85.21.245,http://208.85.21.245/cloud/612672525.ocx,"URLHaus ID: 3731336 | Threat: malware_download | Tags: ocx, opendir, WsgiDAV"
 2025-12-11,Medium,URLHaus,Malicious URL,cloudy.ink,http://cloudy.ink/cloud/612672525125525.ocx,"URLHaus ID: 3731335 | Threat: malware_download | Tags: ocx, opendir, WsgiDAV"
@@ -155,8 +161,8 @@
 2025-12-11,Medium,URLHaus,Malicious URL,208.85.21.245,http://208.85.21.245/cloud/612672525125525.ocx,"URLHaus ID: 3731333 | Threat: malware_download | Tags: ocx, opendir, WsgiDAV"
 2025-12-11,Medium,URLHaus,Malicious URL,cloudy.ink,http://cloudy.ink/cloud/612672525.ocx,"URLHaus ID: 3731332 | Threat: malware_download | Tags: ocx, opendir, WsgiDAV"
 2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/debug,"URLHaus ID: 3731345 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
+2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/Labelloperc80.x86_64,"URLHaus ID: 3731344 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/Labelloperc80.arm6,"URLHaus ID: 3731343 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
-2025-12-11,Medium,URLHaus,Malicious URL,45.131.64.176,http://45.131.64.176/sh,"URLHaus ID: 3731361 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/Labelloperc80.arc,"URLHaus ID: 3731342 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/Labelloperc80.mpsl,"URLHaus ID: 3731341 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/Labelloperc80.m68k,"URLHaus ID: 3731340 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
@@ -168,13 +174,11 @@
 2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/Labelloperc80.mips,"URLHaus ID: 3731350 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/1.sh,"URLHaus ID: 3731349 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,joyeriatauro.com,https://joyeriatauro.com/modelo/v1d.exe,"URLHaus ID: 3731351 | Threat: malware_download | Tags: dropped-by-Stealc, jopa, Vidar"
-2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.arm,"URLHaus ID: 3731386 | Threat: malware_download | Tags: mirai, opendir"
+2025-12-11,Medium,URLHaus,Malicious URL,45.131.64.176,http://45.131.64.176/sh,"URLHaus ID: 3731361 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.mips,"URLHaus ID: 3731384 | Threat: malware_download | Tags: mirai, opendir"
-2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/lang-data/Video.scr,URLHaus ID: 3731439 | Threat: malware_download | Tags: CoinMiner
-2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.i686,"URLHaus ID: 3731383 | Threat: malware_download | Tags: mirai, opendir"
-2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/images/AV.lnk,URLHaus ID: 3731414 | Threat: malware_download | Tags: No tags
-2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/modules/AV.lnk,URLHaus ID: 3731413 | Threat: malware_download | Tags: No tags
-2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/fonts/Video.scr,URLHaus ID: 3731419 | Threat: malware_download | Tags: CoinMiner
+2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/Labelloperc80.arm5,"URLHaus ID: 3731382 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
+2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/Photo.lnk,URLHaus ID: 3731443 | Threat: malware_download | Tags: No tags
+2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/Photo.scr,URLHaus ID: 3731428 | Threat: malware_download | Tags: CoinMiner
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/forge/Video.lnk,URLHaus ID: 3731418 | Threat: malware_download | Tags: No tags
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/images/Video.lnk,URLHaus ID: 3731417 | Threat: malware_download | Tags: No tags
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/fonts/Photo.lnk,URLHaus ID: 3731416 | Threat: malware_download | Tags: No tags
@@ -184,10 +188,11 @@
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/Photo.scr,URLHaus ID: 3731422 | Threat: malware_download | Tags: No tags
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/forge/Video.scr,URLHaus ID: 3731423 | Threat: malware_download | Tags: CoinMiner
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/lang-data/AV.scr,URLHaus ID: 3731424 | Threat: malware_download | Tags: No tags
+2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/forge/Photo.scr,URLHaus ID: 3731425 | Threat: malware_download | Tags: CoinMiner
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/AV.scr,URLHaus ID: 3731426 | Threat: malware_download | Tags: CoinMiner
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/modules/AV.scr,URLHaus ID: 3731427 | Threat: malware_download | Tags: CoinMiner
-2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/Photo.scr,URLHaus ID: 3731428 | Threat: malware_download | Tags: CoinMiner
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/AV.scr,URLHaus ID: 3731429 | Threat: malware_download | Tags: CoinMiner
+2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.mpsl,"URLHaus ID: 3731381 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/forge/AV.scr,URLHaus ID: 3731430 | Threat: malware_download | Tags: CoinMiner
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/Video.scr,URLHaus ID: 3731432 | Threat: malware_download | Tags: CoinMiner
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/Photo.scr,URLHaus ID: 3731431 | Threat: malware_download | Tags: CoinMiner
@@ -197,12 +202,13 @@
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/modules/Video.scr,URLHaus ID: 3731436 | Threat: malware_download | Tags: CoinMiner
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/AV.scr,URLHaus ID: 3731437 | Threat: malware_download | Tags: CoinMiner
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/lang-data/Photo.scr,URLHaus ID: 3731438 | Threat: malware_download | Tags: CoinMiner
+2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/lang-data/Video.scr,URLHaus ID: 3731439 | Threat: malware_download | Tags: CoinMiner
+2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/images/Photo.scr,URLHaus ID: 3731440 | Threat: malware_download | Tags: CoinMiner
+2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/images/AV.scr,URLHaus ID: 3731441 | Threat: malware_download | Tags: CoinMiner
+2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/fonts/Video.scr,URLHaus ID: 3731419 | Threat: malware_download | Tags: CoinMiner
+2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/modules/AV.lnk,URLHaus ID: 3731413 | Threat: malware_download | Tags: No tags
+2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/images/AV.lnk,URLHaus ID: 3731414 | Threat: malware_download | Tags: No tags
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/Video.lnk,URLHaus ID: 3731409 | Threat: malware_download | Tags: No tags
-2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/Video.scr,URLHaus ID: 3731410 | Threat: malware_download | Tags: CoinMiner
-2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/forge/Photo.lnk,URLHaus ID: 3731411 | Threat: malware_download | Tags: No tags
-2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/lang-data/Video.lnk,URLHaus ID: 3731397 | Threat: malware_download | Tags: No tags
-2025-12-11,Medium,URLHaus,Malicious URL,kronicxleopard.win,http://kronicxleopard.win/bins/Labelloperc80.arm5,"URLHaus ID: 3731382 | Threat: malware_download | Tags: botnetdomain, mirai, opendir"
-2025-12-11,Medium,URLHaus,Malicious URL,89.145.160.158,http://89.145.160.158/001010101010010110101011101010101101010111010101/nwfaiehg4ewijfgriehgirehaughrarg.mpsl,"URLHaus ID: 3731381 | Threat: malware_download | Tags: mirai, opendir"
 2025-12-11,Medium,URLHaus,Malicious URL,nova.quartzkip.ru,https://nova.quartzkip.ru/0imwhftd,URLHaus ID: 3731387 | Threat: malware_download | Tags: ClearFake
 2025-12-11,Medium,URLHaus,Malicious URL,41.231.37.153,http://41.231.37.153/rondo.lol,URLHaus ID: 3731388 | Threat: malware_download | Tags: ua-wget
 2025-12-11,Medium,URLHaus,Malicious URL,60.16.64.100,http://60.16.64.100:48034/i,"URLHaus ID: 3731389 | Threat: malware_download | Tags: 32-bit, elf, Mozi"
@@ -212,8 +218,8 @@
 2025-12-11,Medium,URLHaus,Malicious URL,110.37.0.211,http://110.37.0.211:52427/i,"URLHaus ID: 3731393 | Threat: malware_download | Tags: 32-bit, elf, mirai, Mozi"
 2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/7359455182/Chh4IXl.exe,"URLHaus ID: 3731394 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/lang-data/Photo.lnk,URLHaus ID: 3731398 | Threat: malware_download | Tags: No tags
+2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/lang-data/Video.lnk,URLHaus ID: 3731397 | Threat: malware_download | Tags: No tags
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/Photo.lnk,URLHaus ID: 3731396 | Threat: malware_download | Tags: No tags
-2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/images/Video.scr,URLHaus ID: 3731412 | Threat: malware_download | Tags: CoinMiner
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/AV.lnk,URLHaus ID: 3731395 | Threat: malware_download | Tags: No tags
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/Photo.lnk,URLHaus ID: 3731408 | Threat: malware_download | Tags: No tags
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/fonts/AV.lnk,URLHaus ID: 3731407 | Threat: malware_download | Tags: No tags
@@ -225,127 +231,125 @@
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/modules/Video.lnk,URLHaus ID: 3731401 | Threat: malware_download | Tags: No tags
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/modules/Photo.lnk,URLHaus ID: 3731400 | Threat: malware_download | Tags: No tags
 2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/forge/AV.lnk,URLHaus ID: 3731399 | Threat: malware_download | Tags: No tags
-2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.sh4,"URLHaus ID: 3731554 | Threat: malware_download | Tags: elf, ua-wget"
-2025-12-11,High,Israel Cyber Directorate,CVE Vulnerability,gov.il,CVE-2025-55054,INCD advisory (Selenium scraping)
-2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.mips,"URLHaus ID: 3731552 | Threat: malware_download | Tags: elf, ua-wget"
-2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/5297474040/mAOtbuD.exe,"URLHaus ID: 3731566 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
-2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.x86_64,"URLHaus ID: 3731562 | Threat: malware_download | Tags: elf, ua-wget"
-2025-12-11,Medium,URLHaus,Malicious URL,wild.ist0mpi1e.ru,https://wild.ist0mpi1e.ru/nguk0e0i,URLHaus ID: 3731572 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,wild.ist0mpi1e.ru,https://wild.ist0mpi1e.ru/sn2yzbok,URLHaus ID: 3731573 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,soft.ha1fakos0l.ru,https://soft.ha1fakos0l.ru/3b8d5xdp,URLHaus ID: 3731570 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,archive.org,http://archive.org/download/optimized_msi_20251117/optimized_MSI.png,URLHaus ID: 3731569 | Threat: malware_download | Tags: No tags
-2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/7952516244/PQhnEqX.exe,"URLHaus ID: 3731568 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
-2025-12-11,Medium,URLHaus,Malicious URL,80.64.16.241,http://80.64.16.241/unk.sh,URLHaus ID: 3731567 | Threat: malware_download | Tags: miner
-2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/5297474040/cH6ouME.exe,"URLHaus ID: 3731565 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
-2025-12-11,Medium,URLHaus,Malicious URL,soft.ha1fakos0l.ru,https://soft.ha1fakos0l.ru/ka73pzc8,URLHaus ID: 3731571 | Threat: malware_download | Tags: ClearFake
-2025-12-11,Medium,URLHaus,Malicious URL,joke.ha1fakos0l.ru,https://joke.ha1fakos0l.ru/z5r08dd1,URLHaus ID: 3731564 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/images/Video.scr,URLHaus ID: 3731412 | Threat: malware_download | Tags: CoinMiner
+2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/forge/Photo.lnk,URLHaus ID: 3731411 | Threat: malware_download | Tags: No tags
+2025-12-11,Medium,URLHaus,Malicious URL,182.143.113.175,http://182.143.113.175:81/assets/tesseract/Video.scr,URLHaus ID: 3731410 | Threat: malware_download | Tags: CoinMiner
 2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.x86,"URLHaus ID: 3731556 | Threat: malware_download | Tags: elf, ua-wget"
-2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.arm5,"URLHaus ID: 3731557 | Threat: malware_download | Tags: elf, ua-wget"
-2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.ppc,"URLHaus ID: 3731558 | Threat: malware_download | Tags: elf, ua-wget"
-2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.arc,"URLHaus ID: 3731559 | Threat: malware_download | Tags: elf, ua-wget"
-2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.mips64,"URLHaus ID: 3731560 | Threat: malware_download | Tags: elf, ua-wget"
-2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.mpsl,"URLHaus ID: 3731563 | Threat: malware_download | Tags: elf, ua-wget"
-2025-12-11,Medium,URLHaus,Malicious URL,103.77.241.135,http://103.77.241.135/hiddenbin/Space.m68k,"URLHaus ID: 3731561 | Threat: malware_download | Tags: elf, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.arm,"URLHaus ID: 3731215 | Threat: malware_download | Tags: arm, elf, geofenced, mirai, opendir, ua-wget, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.x86,"URLHaus ID: 3731229 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, ua-wget, USA, x86"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.arc,"URLHaus ID: 3731225 | Threat: malware_download | Tags: arc, elf, geofenced, mirai, opendir, ua-wget, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.ppc,"URLHaus ID: 3731226 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, PowerPC, ua-wget, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.spc,"URLHaus ID: 3731227 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, sparc, ua-wget, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.arm7,"URLHaus ID: 3731228 | Threat: malware_download | Tags: arm, elf, geofenced, mirai, opendir, ua-wget, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.mpsl,"URLHaus ID: 3731218 | Threat: malware_download | Tags: elf, geofenced, mips, mirai, opendir, ua-wget, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.sh4,"URLHaus ID: 3731216 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, SuperH, ua-wget, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.x86_64,"URLHaus ID: 3731217 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, ua-wget, USA, x86"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.i686,"URLHaus ID: 3731219 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, ua-wget, USA, x86"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.arm5,"URLHaus ID: 3731220 | Threat: malware_download | Tags: arm, elf, geofenced, mirai, opendir, ua-wget, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/tgak1s/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731231 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,1rr.s0apcluster.ru,https://1rr.s0apcluster.ru/8eyo0zrc,URLHaus ID: 3731230 | Threat: malware_download | Tags: ClearFake
+2025-12-11,High,Israel Cyber Directorate,CVE Vulnerability,gov.il,CVE-2025-55056,INCD advisory (Selenium scraping)
+2025-12-11,Medium,URLHaus,Malicious URL,joke.ha1fakos0l.ru,https://joke.ha1fakos0l.ru/z5r08dd1,URLHaus ID: 3731564 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/Oluwarotimi84/Chibi-Clash-Crypto-Bot-Crypto-Game-Auto-Farm-Clicker-Cheat-Token-Hack-Api/releases/download/v2.4.3/ChibiClashCryptoBotAutoFarmV2.4.3.zip,"URLHaus ID: 3731581 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/5297474040/mAOtbuD.exe,"URLHaus ID: 3731566 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
+2025-12-11,Medium,URLHaus,Malicious URL,dxl08.ch2rmsan1nst.ru,https://dxl08.ch2rmsan1nst.ru/x0138s94,URLHaus ID: 3731593 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,drive.google.com,https://drive.google.com/uc?export=download&id=1zJMjKJzFHWtxatuFTYcoGWO9Wc8uTYXP,"URLHaus ID: 3731591 | Threat: malware_download | Tags: encrypted, GuLoader"
+2025-12-11,Medium,URLHaus,Malicious URL,qxn.ch2rmsan1nst.ru,https://qxn.ch2rmsan1nst.ru/dro3gf0u,URLHaus ID: 3731589 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,qxn.ch2rmsan1nst.ru,https://qxn.ch2rmsan1nst.ru/3lw45g6e,URLHaus ID: 3731590 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,mint.ch2rmsan1nst.ru,https://mint.ch2rmsan1nst.ru/sr6ycd0k,URLHaus ID: 3731588 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,5r.ch2rmsan1nst.ru,https://5r.ch2rmsan1nst.ru/ir2p9td8,URLHaus ID: 3731587 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,5r.ch2rmsan1nst.ru,https://5r.ch2rmsan1nst.ru/r6dtrd84,URLHaus ID: 3731586 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/arnoldjensen/Seekers-of-Tokane-Cheat-Crypto-Bot-Auto-Farm-Clicker-Game-Api-Hack/releases/download/v1.0/Release.zip,"URLHaus ID: 3731585 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/quimicarobot/Tomarket-Hack-Game-Bot-Auto-Farm-Clicker-Crypto-Telegram-Api-Cheat/releases/download/v2.1.2/Tomarket.Hack.Game.Bot.Auto.Farm.Clicker.Crypto.Telegram.Api.Cheat.v2.1.2.zip,"URLHaus ID: 3731584 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/7952516244/LrbvwW4.exe,"URLHaus ID: 3731583 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/joejoejoejoejoejoejoejoejoejoejoejojo/Common-Ground-World-Crypto-Bot-Crypto-Game-Auto-Farm-Clicker-Cheat-Api/releases/download/3.1.4-alpha.4/Release.3.1.4-alpha.4.zip,"URLHaus ID: 3731582 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/PSHNIM/AntiAutoFish/releases/download/v1.0/Application.zip,"URLHaus ID: 3731580 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,dxl08.ch2rmsan1nst.ru,https://dxl08.ch2rmsan1nst.ru/zdm7idbl,URLHaus ID: 3731592 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,charm.ist0mpi1e.ru,https://charm.ist0mpi1e.ru/7oc5wvxa,URLHaus ID: 3731579 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,soft.ha1fakos0l.ru,https://soft.ha1fakos0l.ru/ka73pzc8,URLHaus ID: 3731571 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/5297474040/cH6ouME.exe,"URLHaus ID: 3731565 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
+2025-12-11,Medium,URLHaus,Malicious URL,charm.ist0mpi1e.ru,https://charm.ist0mpi1e.ru/3l1qbcmr,URLHaus ID: 3731578 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/7952516244/PQhnEqX.exe,"URLHaus ID: 3731568 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
+2025-12-11,Medium,URLHaus,Malicious URL,archive.org,http://archive.org/download/optimized_msi_20251117/optimized_MSI.png,URLHaus ID: 3731569 | Threat: malware_download | Tags: No tags
+2025-12-11,Medium,URLHaus,Malicious URL,soft.ha1fakos0l.ru,https://soft.ha1fakos0l.ru/3b8d5xdp,URLHaus ID: 3731570 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,80.64.16.241,http://80.64.16.241/unk.sh,URLHaus ID: 3731567 | Threat: malware_download | Tags: miner
+2025-12-11,Medium,URLHaus,Malicious URL,wild.ist0mpi1e.ru,https://wild.ist0mpi1e.ru/sn2yzbok,URLHaus ID: 3731573 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,5b.ist0mpi1e.ru,https://5b.ist0mpi1e.ru/dmg97llf,URLHaus ID: 3731574 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,5b.ist0mpi1e.ru,https://5b.ist0mpi1e.ru/s3gj02kh,URLHaus ID: 3731575 | Threat: malware_download | Tags: ClearFake
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/PSHNIM/AntiAutoFish/releases/download/v2.0/Software.zip,"URLHaus ID: 3731577 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,github.com,https://github.com/arnoldjensen/Seekers-of-Tokane-Cheat-Crypto-Bot-Auto-Farm-Clicker-Game-Api-Hack/releases/download/v2.0/Software.zip,"URLHaus ID: 3731576 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-11,Medium,URLHaus,Malicious URL,wild.ist0mpi1e.ru,https://wild.ist0mpi1e.ru/nguk0e0i,URLHaus ID: 3731572 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/kesslyy27/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731238 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/uffelth/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731241 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/h0nneyl/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731240 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/recctan1o/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731239 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/ssten1/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731232 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/rawwyh/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731233 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/clarrs/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731234 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,qmmj.gl1mmerset.ru,https://qmmj.gl1mmerset.ru/1hbvg3w3,URLHaus ID: 3731235 | Threat: malware_download | Tags: ClearFake
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/n01liey/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731236 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/calldur/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731237 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/kesslyy27/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731238 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.m68k,"URLHaus ID: 3731222 | Threat: malware_download | Tags: elf, geofenced, m68k, mirai, opendir, ua-wget, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/h0nneyl/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731240 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/uffelth/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731241 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/n1elcery/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731242 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,qmmj.gl1mmerset.ru,https://qmmj.gl1mmerset.ru/1hbvg3w3,URLHaus ID: 3731235 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/clarrs/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731234 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/rawwyh/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731233 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/arcellys/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731243 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/1.sh,"URLHaus ID: 3731221 | Threat: malware_download | Tags: geofenced, mirai, opendir, sh, ua-wget, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,caltille.com,https://caltille.com/files/example.mp4,"URLHaus ID: 3731207 | Threat: malware_download | Tags: base64, hex, obfuscated, powershell, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.arm6,"URLHaus ID: 3731223 | Threat: malware_download | Tags: arm, elf, geofenced, mirai, opendir, ua-wget, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/debug,"URLHaus ID: 3731224 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, ua-wget, USA, x86"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/emmaflys/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731191 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,158.94.210.118,http://158.94.210.118/Documents/agenda.lnk,"URLHaus ID: 3731190 | Threat: malware_download | Tags: lnk, xml-opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,185.214.74.95,http://185.214.74.95/Documents/mass4.pdf.lnk,"URLHaus ID: 3731189 | Threat: malware_download | Tags: lnk, xml-opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,18.143.197.178,http://18.143.197.178/02.08.2022.exe,"URLHaus ID: 3731194 | Threat: malware_download | Tags: censys, CobaltStrike"
-2025-12-10,Medium,URLHaus,Malicious URL,107.172.58.105,http://107.172.58.105/02.08.2022.exe,"URLHaus ID: 3731193 | Threat: malware_download | Tags: censys, CobaltStrike"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/ccer1l/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731195 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,www.mediafire.com,https://www.mediafire.com/file_premium/h1da134t1bycdqv/easy-bin.zip/file,URLHaus ID: 3731196 | Threat: malware_download | Tags: zip
-2025-12-10,Medium,URLHaus,Malicious URL,cee.fe2rsos5is.ru,https://cee.fe2rsos5is.ru/rmtb55lb,URLHaus ID: 3731197 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Medium,URLHaus,Malicious URL,www.acro-drive.com,https://www.acro-drive.com/b/conf-nasta.mp4,"URLHaus ID: 3731199 | Threat: malware_download | Tags: base64, hex, obfuscated, powershell"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/pawanpandey29/hometask/raw/refs/heads/main/Application.zip,"URLHaus ID: 3731198 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/sandronaw/files/refs/heads/main/Application.zip,"URLHaus ID: 3731200 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/MGIBLAST/app/refs/heads/main/Application.zip,"URLHaus ID: 3731201 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/niteshmng/Archives/raw/refs/heads/main/Application.zip,"URLHaus ID: 3731202 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-10,Medium,URLHaus,Malicious URL,www.acro-drive.com,https://www.acro-drive.com/a/1.exe,"URLHaus ID: 3731203 | Threat: malware_download | Tags: DeerStealer, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/pfleuch/reset1/raw/refs/heads/main/Launcher.zip,"URLHaus ID: 3731204 | Threat: malware_download | Tags: SmartLoader, Stealc, zip"
-2025-12-10,Medium,URLHaus,Malicious URL,beta.crankmuddle.ru,https://beta.crankmuddle.ru/cfz7ey0t,URLHaus ID: 3731205 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Medium,URLHaus,Malicious URL,caltille.com,https://caltille.com/files/1.exe,URLHaus ID: 3731206 | Threat: malware_download | Tags: ua-wget
-2025-12-10,Medium,URLHaus,Malicious URL,shift.gl1mmerset.ru,https://shift.gl1mmerset.ru/zug8ur6b,URLHaus ID: 3731245 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Medium,URLHaus,Malicious URL,ku.crankmuddle.ru,https://ku.crankmuddle.ru/864qm5xq,URLHaus ID: 3731208 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/7449711934/6T0baGv.exe,"URLHaus ID: 3731209 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/ddan1s/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731210 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/carleends/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731211 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/1792570984/HVMWEsr.exe,"URLHaus ID: 3731212 | Threat: malware_download | Tags: AsyncRAT, dropped-by-amadey, fbf543"
-2025-12-10,Medium,URLHaus,Malicious URL,heemhaops.biz,https://heemhaops.biz/b,"URLHaus ID: 3731213 | Threat: malware_download | Tags: geofenced, js, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.mips,"URLHaus ID: 3731214 | Threat: malware_download | Tags: elf, geofenced, mips, mirai, opendir, ua-wget, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/colleshake/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731244 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/cerr1L/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731254 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/callstheor/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731246 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/terrmos/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731274 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/dd1eys/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731281 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/trebb1L/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731280 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/terr1l/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731279 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/certh1ls/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731278 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/shann3r/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731277 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/m1lleth/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731282 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/d3xxth/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731283 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/chevverth/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,URLHaus ID: 3731284 | Threat: malware_download | Tags: exe
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/hellenmra/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,URLHaus ID: 3731289 | Threat: malware_download | Tags: exe
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/harnieth/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,URLHaus ID: 3731288 | Threat: malware_download | Tags: exe
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/el1nns/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,URLHaus ID: 3731287 | Threat: malware_download | Tags: exe
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/nalleysh/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,URLHaus ID: 3731286 | Threat: malware_download | Tags: exe
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/malldys/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,URLHaus ID: 3731285 | Threat: malware_download | Tags: exe
-2025-12-10,Medium,URLHaus,Malicious URL,mu.pip-etalon.ru,https://mu.pip-etalon.ru/ynoz3d0t,URLHaus ID: 3731290 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Medium,URLHaus,Malicious URL,draft.pip-etalon.ru,https://draft.pip-etalon.ru/baxfz8j0,URLHaus ID: 3731291 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/2043702969/Mjm6MSl.exe,"URLHaus ID: 3731292 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
-2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/8262475068/uajOd6y.exe,"URLHaus ID: 3731293 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
-2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/748049926/udNbXjM.exe,"URLHaus ID: 3731294 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey, GoProxy"
-2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/alexandr300314-prog/subVerison_GTAV_Hack/main/subVersion/d3d9/subVerison_GTAV_Hack-2.6.zip,"URLHaus ID: 3731295 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/edineiaparecidolopes/AI-Object-Detection/main/reprice/AI-Object-Detection.zip,"URLHaus ID: 3731296 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-10,Medium,URLHaus,Malicious URL,set.crank-muddle.ru,https://set.crank-muddle.ru/q36zxkl2,URLHaus ID: 3731297 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/DentiNeri/FiveM-Tool-Kit/main/Harari/FiveM-Tool-Kit.zip,"URLHaus ID: 3731298 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/molo243r/fivem-weather-control/main/pneumonorrhagia/fivem-weather-control.zip,"URLHaus ID: 3731299 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/Azrael-141/FiveM-LoadingScreen/main/diabolarchy/FiveM-LoadingScreen.zip,"URLHaus ID: 3731300 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-10,Medium,URLHaus,Malicious URL,odd.crank-muddle.ru,https://odd.crank-muddle.ru/slebdo9v,URLHaus ID: 3731301 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/ashenny/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731276 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/creyty1h/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731275 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/clerrs/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731248 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/camm1el/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731272 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/emm1ls/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731247 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/ssten1/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731232 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/n1elcery/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731242 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/amm1eld/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731249 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/colleshake/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731244 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,shift.gl1mmerset.ru,https://shift.gl1mmerset.ru/zug8ur6b,URLHaus ID: 3731245 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/callstheor/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731246 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/clerrs/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731248 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/emm1ls/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731247 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/scaL3X/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731250 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/cann1ere/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731251 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/kk3LL/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731252 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/cl1err9/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731256 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/err1yball/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731255 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,47.84.116.153,http://47.84.116.153:8082/02.08.2022.exe,"URLHaus ID: 3731187 | Threat: malware_download | Tags: censys, CobaltStrike"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/ettal1y/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731253 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/cerr1L/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731254 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,1rr.s0apcluster.ru,https://1rr.s0apcluster.ru/8eyo0zrc,URLHaus ID: 3731230 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/tgak1s/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731231 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/debug,"URLHaus ID: 3731224 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, ua-wget, USA, x86"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.x86,"URLHaus ID: 3731229 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, ua-wget, USA, x86"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.arc,"URLHaus ID: 3731225 | Threat: malware_download | Tags: arc, elf, geofenced, mirai, opendir, ua-wget, USA"
+2025-12-10,Medium,URLHaus,Malicious URL,beta.crankmuddle.ru,https://beta.crankmuddle.ru/cfz7ey0t,URLHaus ID: 3731205 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,caltille.com,https://caltille.com/files/1.exe,URLHaus ID: 3731206 | Threat: malware_download | Tags: ua-wget
+2025-12-10,Medium,URLHaus,Malicious URL,caltille.com,https://caltille.com/files/example.mp4,"URLHaus ID: 3731207 | Threat: malware_download | Tags: base64, hex, obfuscated, powershell, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,ku.crankmuddle.ru,https://ku.crankmuddle.ru/864qm5xq,URLHaus ID: 3731208 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/7449711934/6T0baGv.exe,"URLHaus ID: 3731209 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey, ResolverRAT"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/ddan1s/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731210 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/carleends/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731211 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/1792570984/HVMWEsr.exe,"URLHaus ID: 3731212 | Threat: malware_download | Tags: AsyncRAT, dropped-by-amadey, fbf543"
+2025-12-10,Medium,URLHaus,Malicious URL,heemhaops.biz,https://heemhaops.biz/b,"URLHaus ID: 3731213 | Threat: malware_download | Tags: geofenced, js, USA"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.mips,"URLHaus ID: 3731214 | Threat: malware_download | Tags: elf, geofenced, mips, mirai, opendir, ua-wget, USA"
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/rayn1e/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731257 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.arm6,"URLHaus ID: 3731223 | Threat: malware_download | Tags: arm, elf, geofenced, mirai, opendir, ua-wget, USA"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.m68k,"URLHaus ID: 3731222 | Threat: malware_download | Tags: elf, geofenced, m68k, mirai, opendir, ua-wget, USA"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/1.sh,"URLHaus ID: 3731221 | Threat: malware_download | Tags: geofenced, mirai, opendir, sh, ua-wget, USA"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.arm5,"URLHaus ID: 3731220 | Threat: malware_download | Tags: arm, elf, geofenced, mirai, opendir, ua-wget, USA"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.i686,"URLHaus ID: 3731219 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, ua-wget, USA, x86"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.mpsl,"URLHaus ID: 3731218 | Threat: malware_download | Tags: elf, geofenced, mips, mirai, opendir, ua-wget, USA"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.x86_64,"URLHaus ID: 3731217 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, ua-wget, USA, x86"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.sh4,"URLHaus ID: 3731216 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, SuperH, ua-wget, USA"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.arm,"URLHaus ID: 3731215 | Threat: malware_download | Tags: arm, elf, geofenced, mirai, opendir, ua-wget, USA"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.arm7,"URLHaus ID: 3731228 | Threat: malware_download | Tags: arm, elf, geofenced, mirai, opendir, ua-wget, USA"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.spc,"URLHaus ID: 3731227 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, sparc, ua-wget, USA"
+2025-12-10,Medium,URLHaus,Malicious URL,41.216.189.159,http://41.216.189.159/bins/Labelloperc80.ppc,"URLHaus ID: 3731226 | Threat: malware_download | Tags: elf, geofenced, mirai, opendir, PowerPC, ua-wget, USA"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/ettal1y/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731253 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/crennl0s/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731273 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-10,Medium,URLHaus,Malicious URL,110.37.102.73,http://110.37.102.73:59790/i,"URLHaus ID: 3731258 | Threat: malware_download | Tags: 32-bit, elf, Mozi"
+2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/DentiNeri/FiveM-Tool-Kit/main/Harari/FiveM-Tool-Kit.zip,"URLHaus ID: 3731298 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/el1nns/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,URLHaus ID: 3731287 | Threat: malware_download | Tags: exe
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/nalleysh/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,URLHaus ID: 3731286 | Threat: malware_download | Tags: exe
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/malldys/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,URLHaus ID: 3731285 | Threat: malware_download | Tags: exe
+2025-12-10,Medium,URLHaus,Malicious URL,mu.pip-etalon.ru,https://mu.pip-etalon.ru/ynoz3d0t,URLHaus ID: 3731290 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,draft.pip-etalon.ru,https://draft.pip-etalon.ru/baxfz8j0,URLHaus ID: 3731291 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/2043702969/Mjm6MSl.exe,"URLHaus ID: 3731292 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/8262475068/uajOd6y.exe,"URLHaus ID: 3731293 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey"
+2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/748049926/udNbXjM.exe,"URLHaus ID: 3731294 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey, GoProxy"
+2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/alexandr300314-prog/subVerison_GTAV_Hack/main/subVersion/d3d9/subVerison_GTAV_Hack-2.6.zip,"URLHaus ID: 3731295 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/edineiaparecidolopes/AI-Object-Detection/main/reprice/AI-Object-Detection.zip,"URLHaus ID: 3731296 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-10,Medium,URLHaus,Malicious URL,set.crank-muddle.ru,https://set.crank-muddle.ru/q36zxkl2,URLHaus ID: 3731297 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/molo243r/fivem-weather-control/main/pneumonorrhagia/fivem-weather-control.zip,"URLHaus ID: 3731299 | Threat: malware_download | Tags: SmartLoader, zip"
 2025-12-10,Medium,URLHaus,Malicious URL,42.234.155.8,http://42.234.155.8:39720/i,"URLHaus ID: 3731261 | Threat: malware_download | Tags: 32-bit, elf, Mozi"
+2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/Azrael-141/FiveM-LoadingScreen/main/diabolarchy/FiveM-LoadingScreen.zip,"URLHaus ID: 3731300 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-10,Medium,URLHaus,Malicious URL,odd.crank-muddle.ru,https://odd.crank-muddle.ru/slebdo9v,URLHaus ID: 3731301 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,cluster.crank-muddle.ru,https://cluster.crank-muddle.ru/lnv19u6n,URLHaus ID: 3731302 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/6456764503/Y511yIT.exe,"URLHaus ID: 3731303 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey, xred"
+2025-12-10,Medium,URLHaus,Malicious URL,yvrp.crank-muddle.ru,https://yvrp.crank-muddle.ru/nfsi0lmg,URLHaus ID: 3731304 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,5v72.pipetalon.ru,https://5v72.pipetalon.ru/0t9oddj4,URLHaus ID: 3731305 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/arm64,"URLHaus ID: 3731306 | Threat: malware_download | Tags: arm, elf, geofenced, mirai, opendir, ua-wget, USA"
+2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/wget,"URLHaus ID: 3731307 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/bins.sh,"URLHaus ID: 3731315 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/cron,"URLHaus ID: 3731314 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/ftp,"URLHaus ID: 3731313 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/harnieth/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,URLHaus ID: 3731288 | Threat: malware_download | Tags: exe
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/hellenmra/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,URLHaus ID: 3731289 | Threat: malware_download | Tags: exe
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/chevverth/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,URLHaus ID: 3731284 | Threat: malware_download | Tags: exe
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/d3xxth/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731283 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-10,Medium,URLHaus,Malicious URL,42.229.155.178,http://42.229.155.178:34516/i,"URLHaus ID: 3731260 | Threat: malware_download | Tags: 32-bit, elf, Mozi"
 2025-12-10,Medium,URLHaus,Malicious URL,110.39.242.248,http://110.39.242.248:52330/i,"URLHaus ID: 3731259 | Threat: malware_download | Tags: 32-bit, elf, Mozi"
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/clarrye/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731262 | Threat: malware_download | Tags: exe, Vidar"
@@ -358,15 +362,62 @@
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/cretteys/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731269 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/emparrel/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731268 | Threat: malware_download | Tags: exe, Vidar"
 2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/v1llenth/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731271 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/crennl0s/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731273 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,185.214.74.95,http://185.214.74.95/Documents/Example.lnk,"URLHaus ID: 3731192 | Threat: malware_download | Tags: lnk, xml-opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,116.105.132.176,http://116.105.132.176/sshd,"URLHaus ID: 3731179 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
-2025-12-10,Medium,URLHaus,Malicious URL,185.39.31.126,http://185.39.31.126:1443/02.08.2022.exe,"URLHaus ID: 3731188 | Threat: malware_download | Tags: censys, CobaltStrike"
+2025-12-10,Medium,URLHaus,Malicious URL,www.acro-drive.com,https://www.acro-drive.com/a/1.exe,"URLHaus ID: 3731203 | Threat: malware_download | Tags: DeerStealer, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/camm1el/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731272 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/creyty1h/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731275 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/terrmos/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731274 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/ashenny/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731276 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/dd1eys/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731281 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/trebb1L/FiveM-Spoofer/raw/refs/heads/main/CFXBypass.exe,"URLHaus ID: 3731280 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/terr1l/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731279 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/certh1ls/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731278 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/shann3r/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731277 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/m1lleth/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731282 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/pfleuch/reset1/raw/refs/heads/main/Launcher.zip,"URLHaus ID: 3731204 | Threat: malware_download | Tags: SmartLoader, Stealc, zip"
+2025-12-10,Medium,URLHaus,Malicious URL,47.84.116.153,http://47.84.116.153:8082/02.08.2022.exe,"URLHaus ID: 3731187 | Threat: malware_download | Tags: censys, CobaltStrike"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/niteshmng/Archives/raw/refs/heads/main/Application.zip,"URLHaus ID: 3731202 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/arm7,"URLHaus ID: 3731135 | Threat: malware_download | Tags: elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,221.15.85.213,http://221.15.85.213:38690/bin.sh,"URLHaus ID: 3731123 | Threat: malware_download | Tags: 32-bit, elf, mips, Mozi"
+2025-12-10,Medium,URLHaus,Malicious URL,125.40.154.232,http://125.40.154.232:43805/i,"URLHaus ID: 3731122 | Threat: malware_download | Tags: 32-bit, elf, mips, Mozi"
+2025-12-10,Medium,URLHaus,Malicious URL,37.84.127.221,http://37.84.127.221/photo.scr,URLHaus ID: 3731124 | Threat: malware_download | Tags: CoinMiner
+2025-12-10,Medium,URLHaus,Malicious URL,ef.ma5cotw2ter.ru,https://ef.ma5cotw2ter.ru/1jlaybq6,URLHaus ID: 3731125 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,182.113.219.18,http://182.113.219.18:37739/bin.sh,"URLHaus ID: 3731126 | Threat: malware_download | Tags: 32-bit, elf, mips, Mozi"
+2025-12-10,Medium,URLHaus,Malicious URL,ex6.ma5cotw2ter.ru,https://ex6.ma5cotw2ter.ru/k5idjxbo,URLHaus ID: 3731127 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,files-ld.s3.us-east-2.amazonaws.com,https://files-ld.s3.us-east-2.amazonaws.com/GoogleUpdate.bin.zip,URLHaus ID: 3731128 | Threat: malware_download | Tags: No tags
+2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/minki166/VENTE-Spoofer-and-Cheats-BASE/main/anubing/VENTE-Spoofer-and-Cheats-BASE.zip,"URLHaus ID: 3731129 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/sh4,"URLHaus ID: 3731132 | Threat: malware_download | Tags: elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/arm6,"URLHaus ID: 3731131 | Threat: malware_download | Tags: elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/m68k,"URLHaus ID: 3731130 | Threat: malware_download | Tags: elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/x86_64,"URLHaus ID: 3731134 | Threat: malware_download | Tags: elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/1792570984/eaefhVv.exe,"URLHaus ID: 3731120 | Threat: malware_download | Tags: AsyncRAT, c2-monitor-auto, dropped-by-amadey, xworm"
+2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/arm,"URLHaus ID: 3731133 | Threat: malware_download | Tags: elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/ppc,"URLHaus ID: 3731136 | Threat: malware_download | Tags: elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/arm5,"URLHaus ID: 3731137 | Threat: malware_download | Tags: elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/spc,"URLHaus ID: 3731138 | Threat: malware_download | Tags: elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,80.250.17.243,http://80.250.17.243/x86_32,"URLHaus ID: 3731139 | Threat: malware_download | Tags: elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,80.250.17.243,http://80.250.17.243/x86_64,"URLHaus ID: 3731141 | Threat: malware_download | Tags: elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,80.250.17.243,http://80.250.17.243/x86,"URLHaus ID: 3731140 | Threat: malware_download | Tags: elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,i62yv.bel1etin7eg.ru,https://i62yv.bel1etin7eg.ru/72h11q3k,URLHaus ID: 3731142 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,i62yv.bel1etin7eg.ru,https://i62yv.bel1etin7eg.ru/k3y3ncw6,URLHaus ID: 3731143 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,ellison.st,http://ellison.st/x86_32,"URLHaus ID: 3731144 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,ellison.st,http://ellison.st/x86_64,"URLHaus ID: 3731145 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,125.47.218.22,http://125.47.218.22:53301/bin.sh,"URLHaus ID: 3731121 | Threat: malware_download | Tags: 32-bit, elf, mips, Mozi"
+2025-12-10,Medium,URLHaus,Malicious URL,27.152.72.35,http://27.152.72.35:50000/av.lnk,URLHaus ID: 3731119 | Threat: malware_download | Tags: CoinMiner
+2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/MGIBLAST/app/refs/heads/main/Application.zip,"URLHaus ID: 3731201 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-10,Medium,URLHaus,Malicious URL,110.37.61.44,http://110.37.61.44:43399/bin.sh,"URLHaus ID: 3731105 | Threat: malware_download | Tags: 32-bit, arm, elf, mirai, Mozi"
+2025-12-10,Medium,URLHaus,Malicious URL,joker.proxywall.p-e.kr,http://joker.proxywall.p-e.kr/main_arm6,"URLHaus ID: 3731093 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,joker.proxywall.p-e.kr,http://joker.proxywall.p-e.kr/main_x86,"URLHaus ID: 3731092 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,114.242.100.72,https://114.242.100.72/info.zip,URLHaus ID: 3731096 | Threat: malware_download | Tags: CoinMiner
+2025-12-10,Medium,URLHaus,Malicious URL,189.175.184.32,http://189.175.184.32/photo.lnk,URLHaus ID: 3731099 | Threat: malware_download | Tags: CoinMiner
+2025-12-10,Medium,URLHaus,Malicious URL,189.175.184.32,http://189.175.184.32/av.lnk,URLHaus ID: 3731098 | Threat: malware_download | Tags: CoinMiner
+2025-12-10,Medium,URLHaus,Malicious URL,189.175.184.32,http://189.175.184.32/video.lnk,URLHaus ID: 3731097 | Threat: malware_download | Tags: CoinMiner
+2025-12-10,Medium,URLHaus,Malicious URL,27.152.72.35,http://27.152.72.35:50000/photo.lnk,URLHaus ID: 3731102 | Threat: malware_download | Tags: CoinMiner
 2025-12-10,Medium,URLHaus,Malicious URL,27.152.72.35,http://27.152.72.35:50000/video.lnk,URLHaus ID: 3731101 | Threat: malware_download | Tags: CoinMiner
+2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/5297474040/5qEOpbg.exe,"URLHaus ID: 3731100 | Threat: malware_download | Tags: dropped-by-amadey, fbf543"
 2025-12-10,Medium,URLHaus,Malicious URL,joker.proxywall.p-e.kr,http://joker.proxywall.p-e.kr/main_arm5,"URLHaus ID: 3731103 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
 2025-12-10,Medium,URLHaus,Malicious URL,42.226.79.104,http://42.226.79.104:44109/bin.sh,"URLHaus ID: 3731104 | Threat: malware_download | Tags: 32-bit, elf, mips, Mozi"
-2025-12-10,Medium,URLHaus,Malicious URL,110.37.61.44,http://110.37.61.44:43399/bin.sh,"URLHaus ID: 3731105 | Threat: malware_download | Tags: 32-bit, arm, elf, mirai, Mozi"
 2025-12-10,Medium,URLHaus,Malicious URL,189.175.184.32,http://189.175.184.32/info.zip,URLHaus ID: 3731107 | Threat: malware_download | Tags: CoinMiner
+2025-12-10,Medium,URLHaus,Malicious URL,37.84.127.221,http://37.84.127.221/info.zip,URLHaus ID: 3731118 | Threat: malware_download | Tags: CoinMiner
 2025-12-10,Medium,URLHaus,Malicious URL,118.71.150.170,http://118.71.150.170/info.zip,URLHaus ID: 3731106 | Threat: malware_download | Tags: CoinMiner
 2025-12-10,Medium,URLHaus,Malicious URL,138.188.40.77,https://138.188.40.77/photo.lnk,URLHaus ID: 3731109 | Threat: malware_download | Tags: CoinMiner
 2025-12-10,Medium,URLHaus,Malicious URL,27.152.72.35,http://27.152.72.35:50000/info.zip,URLHaus ID: 3731108 | Threat: malware_download | Tags: CoinMiner
@@ -378,49 +429,49 @@
 2025-12-10,Medium,URLHaus,Malicious URL,37.81.146.40,http://37.81.146.40/photo.scr,URLHaus ID: 3731115 | Threat: malware_download | Tags: CoinMiner
 2025-12-10,Medium,URLHaus,Malicious URL,37.81.146.40,http://37.81.146.40/info.zip,URLHaus ID: 3731116 | Threat: malware_download | Tags: CoinMiner
 2025-12-10,Medium,URLHaus,Malicious URL,37.85.190.27,http://37.85.190.27/info.zip,URLHaus ID: 3731117 | Threat: malware_download | Tags: CoinMiner
-2025-12-10,Medium,URLHaus,Malicious URL,37.84.127.221,http://37.84.127.221/info.zip,URLHaus ID: 3731118 | Threat: malware_download | Tags: CoinMiner
-2025-12-10,Medium,URLHaus,Malicious URL,27.152.72.35,http://27.152.72.35:50000/av.lnk,URLHaus ID: 3731119 | Threat: malware_download | Tags: CoinMiner
-2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/1792570984/eaefhVv.exe,"URLHaus ID: 3731120 | Threat: malware_download | Tags: AsyncRAT, c2-monitor-auto, dropped-by-amadey, xworm"
-2025-12-10,Medium,URLHaus,Malicious URL,125.47.218.22,http://125.47.218.22:53301/bin.sh,"URLHaus ID: 3731121 | Threat: malware_download | Tags: 32-bit, elf, mips, Mozi"
-2025-12-10,Medium,URLHaus,Malicious URL,221.15.85.213,http://221.15.85.213:38690/bin.sh,"URLHaus ID: 3731123 | Threat: malware_download | Tags: 32-bit, elf, mips, Mozi"
-2025-12-10,Medium,URLHaus,Malicious URL,125.40.154.232,http://125.40.154.232:43805/i,"URLHaus ID: 3731122 | Threat: malware_download | Tags: 32-bit, elf, mips, Mozi"
-2025-12-10,Medium,URLHaus,Malicious URL,37.84.127.221,http://37.84.127.221/photo.scr,URLHaus ID: 3731124 | Threat: malware_download | Tags: CoinMiner
-2025-12-10,Medium,URLHaus,Malicious URL,ef.ma5cotw2ter.ru,https://ef.ma5cotw2ter.ru/1jlaybq6,URLHaus ID: 3731125 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Medium,URLHaus,Malicious URL,182.113.219.18,http://182.113.219.18:37739/bin.sh,"URLHaus ID: 3731126 | Threat: malware_download | Tags: 32-bit, elf, mips, Mozi"
-2025-12-10,Medium,URLHaus,Malicious URL,ex6.ma5cotw2ter.ru,https://ex6.ma5cotw2ter.ru/k5idjxbo,URLHaus ID: 3731127 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/5297474040/5qEOpbg.exe,"URLHaus ID: 3731100 | Threat: malware_download | Tags: dropped-by-amadey, fbf543"
-2025-12-10,Medium,URLHaus,Malicious URL,27.152.72.35,http://27.152.72.35:50000/photo.lnk,URLHaus ID: 3731102 | Threat: malware_download | Tags: CoinMiner
-2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/minki166/VENTE-Spoofer-and-Cheats-BASE/main/anubing/VENTE-Spoofer-and-Cheats-BASE.zip,"URLHaus ID: 3731129 | Threat: malware_download | Tags: SmartLoader, zip"
-2025-12-10,Medium,URLHaus,Malicious URL,189.175.184.32,http://189.175.184.32/video.lnk,URLHaus ID: 3731097 | Threat: malware_download | Tags: CoinMiner
-2025-12-10,Medium,URLHaus,Malicious URL,airair.dianying.my,http://airair.dianying.my/main_x86,"URLHaus ID: 3731078 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,airair.dianying.my,http://airair.dianying.my/main_arm6,"URLHaus ID: 3731077 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,airair.dianying.my,http://airair.dianying.my/main_arm7,"URLHaus ID: 3731076 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,airair.dianying.my,http://airair.dianying.my/main_mpsl,"URLHaus ID: 3731075 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,airair.dianying.my,http://airair.dianying.my/main_m68k,"URLHaus ID: 3731074 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,airair.dianying.my,http://airair.dianying.my/main_x86_64,"URLHaus ID: 3731079 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,airair.dianying.my,http://airair.dianying.my/main_arm,"URLHaus ID: 3731080 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,airair.dianying.my,http://airair.dianying.my/main_mips,"URLHaus ID: 3731083 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,airair.dianying.my,http://airair.dianying.my/main_sh4,"URLHaus ID: 3731082 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,airair.dianying.my,http://airair.dianying.my/main_ppc,"URLHaus ID: 3731081 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,airair.dianying.my,http://airair.dianying.my/main_arm5,"URLHaus ID: 3731084 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,93.157.253.209,http://93.157.253.209:33642/i,"URLHaus ID: 3731085 | Threat: malware_download | Tags: 32-bit, elf, mips, Mozi"
-2025-12-10,Medium,URLHaus,Malicious URL,joker.proxywall.p-e.kr,http://joker.proxywall.p-e.kr/main_m68k,"URLHaus ID: 3731089 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,joker.proxywall.p-e.kr,http://joker.proxywall.p-e.kr/main_sh4,"URLHaus ID: 3731088 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,joker.proxywall.p-e.kr,http://joker.proxywall.p-e.kr/main_mpsl,"URLHaus ID: 3731087 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,joker.proxywall.p-e.kr,http://joker.proxywall.p-e.kr/main_x86_64,"URLHaus ID: 3731086 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,joker.proxywall.p-e.kr,http://joker.proxywall.p-e.kr/main_arm7,"URLHaus ID: 3731090 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,joker.proxywall.p-e.kr,http://joker.proxywall.p-e.kr/main_arm,"URLHaus ID: 3731091 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,joker.proxywall.p-e.kr,http://joker.proxywall.p-e.kr/main_ppc,"URLHaus ID: 3731095 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,joker.proxywall.p-e.kr,http://joker.proxywall.p-e.kr/main_mips,"URLHaus ID: 3731094 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,joker.proxywall.p-e.kr,http://joker.proxywall.p-e.kr/main_arm6,"URLHaus ID: 3731093 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,joker.proxywall.p-e.kr,http://joker.proxywall.p-e.kr/main_x86,"URLHaus ID: 3731092 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,114.242.100.72,https://114.242.100.72/info.zip,URLHaus ID: 3731096 | Threat: malware_download | Tags: CoinMiner
-2025-12-10,Medium,URLHaus,Malicious URL,189.175.184.32,http://189.175.184.32/photo.lnk,URLHaus ID: 3731099 | Threat: malware_download | Tags: CoinMiner
-2025-12-10,Medium,URLHaus,Malicious URL,189.175.184.32,http://189.175.184.32/av.lnk,URLHaus ID: 3731098 | Threat: malware_download | Tags: CoinMiner
-2025-12-10,Medium,URLHaus,Malicious URL,files-ld.s3.us-east-2.amazonaws.com,https://files-ld.s3.us-east-2.amazonaws.com/GoogleUpdate.bin.zip,URLHaus ID: 3731128 | Threat: malware_download | Tags: No tags
-2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/sh4,"URLHaus ID: 3731132 | Threat: malware_download | Tags: elf, mirai, ua-wget"
+2025-12-10,Medium,URLHaus,Malicious URL,motphimr.co,https://motphimr.co/motphim.exe,"URLHaus ID: 3731146 | Threat: malware_download | Tags: rat, vanillarat, VanillaRatStub.exe"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/Krish637/hwid-changer/raw/refs/heads/main/enteria/hwid-changer_1.4-alpha.1.zip,"URLHaus ID: 3731147 | Threat: malware_download | Tags: SmartLoader, Stealc, zip"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/m1lleys/mills/raw/refs/heads/main/Vl42rA8dkRKp2D9.exe,"URLHaus ID: 3731148 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/sh,"URLHaus ID: 3731311 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,177.52.24.178,http://177.52.24.178:9201/i,"URLHaus ID: 3731177 | Threat: malware_download | Tags: censys, elf, hajime"
+2025-12-10,Medium,URLHaus,Malicious URL,117.206.97.125,http://117.206.97.125:2004/sshd,"URLHaus ID: 3731178 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
+2025-12-10,Medium,URLHaus,Malicious URL,116.105.132.176,http://116.105.132.176/sshd,"URLHaus ID: 3731179 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
+2025-12-10,Medium,URLHaus,Malicious URL,47.83.26.93,http://47.83.26.93/02.08.2022.exe,"URLHaus ID: 3731185 | Threat: malware_download | Tags: censys, CobaltStrike"
+2025-12-10,Medium,URLHaus,Malicious URL,38.54.56.17,http://38.54.56.17/02.08.2022.exe,"URLHaus ID: 3731184 | Threat: malware_download | Tags: censys, CobaltStrike"
+2025-12-10,Medium,URLHaus,Malicious URL,49.235.84.148,http://49.235.84.148:5677/02.08.2022.exe,"URLHaus ID: 3731183 | Threat: malware_download | Tags: censys, CobaltStrike"
+2025-12-10,Medium,URLHaus,Malicious URL,34.71.215.207,http://34.71.215.207/02.08.2022.exe,"URLHaus ID: 3731182 | Threat: malware_download | Tags: censys, CobaltStrike"
+2025-12-10,Medium,URLHaus,Malicious URL,166.117.91.70,http://166.117.91.70:8081/02.08.2022.exe,"URLHaus ID: 3731181 | Threat: malware_download | Tags: censys, CobaltStrike"
+2025-12-10,Medium,URLHaus,Malicious URL,18.163.124.91,http://18.163.124.91:8081/02.08.2022.exe,"URLHaus ID: 3731180 | Threat: malware_download | Tags: censys, CobaltStrike"
 2025-12-10,Medium,URLHaus,Malicious URL,47.84.116.153,http://47.84.116.153:8081/02.08.2022.exe,"URLHaus ID: 3731186 | Threat: malware_download | Tags: censys, CobaltStrike"
+2025-12-10,Medium,URLHaus,Malicious URL,185.39.31.126,http://185.39.31.126:1443/02.08.2022.exe,"URLHaus ID: 3731188 | Threat: malware_download | Tags: censys, CobaltStrike"
+2025-12-10,Medium,URLHaus,Malicious URL,185.214.74.95,http://185.214.74.95/Documents/Example.lnk,"URLHaus ID: 3731192 | Threat: malware_download | Tags: lnk, xml-opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,jmpbowl.space,http://jmpbowl.space/curl/1594300ef576e489183fb20c411b7d28c1342209b9f7a97285c1f8df7ac1ce2c,"URLHaus ID: 3731149 | Threat: malware_download | Tags: base64, ClickFix, zip"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/emmaflys/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731191 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,158.94.210.118,http://158.94.210.118/Documents/agenda.lnk,"URLHaus ID: 3731190 | Threat: malware_download | Tags: lnk, xml-opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,185.214.74.95,http://185.214.74.95/Documents/mass4.pdf.lnk,"URLHaus ID: 3731189 | Threat: malware_download | Tags: DarkTortilla, lnk, xml-opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,18.143.197.178,http://18.143.197.178/02.08.2022.exe,"URLHaus ID: 3731194 | Threat: malware_download | Tags: censys, CobaltStrike"
+2025-12-10,Medium,URLHaus,Malicious URL,107.172.58.105,http://107.172.58.105/02.08.2022.exe,"URLHaus ID: 3731193 | Threat: malware_download | Tags: censys, CobaltStrike"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/ccer1l/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone.exe,"URLHaus ID: 3731195 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,www.mediafire.com,https://www.mediafire.com/file_premium/h1da134t1bycdqv/easy-bin.zip/file,URLHaus ID: 3731196 | Threat: malware_download | Tags: zip
+2025-12-10,Medium,URLHaus,Malicious URL,cee.fe2rsos5is.ru,https://cee.fe2rsos5is.ru/rmtb55lb,URLHaus ID: 3731197 | Threat: malware_download | Tags: ClearFake
+2025-12-10,Medium,URLHaus,Malicious URL,www.acro-drive.com,https://www.acro-drive.com/b/conf-nasta.mp4,"URLHaus ID: 3731199 | Threat: malware_download | Tags: base64, hex, obfuscated, powershell"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/pawanpandey29/hometask/raw/refs/heads/main/Application.zip,"URLHaus ID: 3731198 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-10,Medium,URLHaus,Malicious URL,raw.githubusercontent.com,https://raw.githubusercontent.com/sandronaw/files/refs/heads/main/Application.zip,"URLHaus ID: 3731200 | Threat: malware_download | Tags: SmartLoader, zip"
+2025-12-10,Medium,URLHaus,Malicious URL,120.157.71.85,http://120.157.71.85:85/sshd,"URLHaus ID: 3731173 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
+2025-12-10,Medium,URLHaus,Malicious URL,186.222.71.142,http://186.222.71.142:49905/i,"URLHaus ID: 3731174 | Threat: malware_download | Tags: censys, elf, hajime"
+2025-12-10,Medium,URLHaus,Malicious URL,123.209.205.236,http://123.209.205.236:85/sshd,"URLHaus ID: 3731175 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
+2025-12-10,Medium,URLHaus,Malicious URL,101.168.47.205,http://101.168.47.205:85/sshd,"URLHaus ID: 3731176 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/cv3s/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731150 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/eLLExs/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731151 | Threat: malware_download | Tags: exe, Vidar"
+2025-12-10,Medium,URLHaus,Malicious URL,122.117.97.43,http://122.117.97.43:43199/i,"URLHaus ID: 3731153 | Threat: malware_download | Tags: censys, elf, hajime"
+2025-12-10,Medium,URLHaus,Malicious URL,178.131.167.98,http://178.131.167.98:19230/i,"URLHaus ID: 3731152 | Threat: malware_download | Tags: censys, elf, hajime"
+2025-12-10,Medium,URLHaus,Malicious URL,212.120.197.163,http://212.120.197.163:6764/i,"URLHaus ID: 3731154 | Threat: malware_download | Tags: censys, elf, hajime"
+2025-12-10,Medium,URLHaus,Malicious URL,71.25.181.86,http://71.25.181.86:50415/i,"URLHaus ID: 3731155 | Threat: malware_download | Tags: censys, elf, hajime"
+2025-12-10,Medium,URLHaus,Malicious URL,83.224.162.153,http://83.224.162.153/sshd,"URLHaus ID: 3731156 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
+2025-12-10,Medium,URLHaus,Malicious URL,91.80.131.136,http://91.80.131.136/sshd,"URLHaus ID: 3731158 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
+2025-12-10,Medium,URLHaus,Malicious URL,121.136.45.187,http://121.136.45.187:65004/i,"URLHaus ID: 3731157 | Threat: malware_download | Tags: censys, elf, hajime"
 2025-12-10,Medium,URLHaus,Malicious URL,37.255.229.18,http://37.255.229.18:30507/i,"URLHaus ID: 3731161 | Threat: malware_download | Tags: censys, elf, hajime"
+2025-12-10,Medium,URLHaus,Malicious URL,49.70.151.117,http://49.70.151.117:65185/i,"URLHaus ID: 3731160 | Threat: malware_download | Tags: censys, elf, hajime"
 2025-12-10,Medium,URLHaus,Malicious URL,197.134.254.50,http://197.134.254.50:62889/i,"URLHaus ID: 3731159 | Threat: malware_download | Tags: censys, elf, hajime"
 2025-12-10,Medium,URLHaus,Malicious URL,80.116.94.239,http://80.116.94.239:29869/i,"URLHaus ID: 3731172 | Threat: malware_download | Tags: censys, elf, hajime"
 2025-12-10,Medium,URLHaus,Malicious URL,201.110.156.242,http://201.110.156.242:8080/sshd,"URLHaus ID: 3731171 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
@@ -433,56 +484,10 @@
 2025-12-10,Medium,URLHaus,Malicious URL,27.75.67.144,http://27.75.67.144:8080/sshd,"URLHaus ID: 3731164 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
 2025-12-10,Medium,URLHaus,Malicious URL,41.146.3.150,http://41.146.3.150:8083/sshd,"URLHaus ID: 3731163 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
 2025-12-10,Medium,URLHaus,Malicious URL,119.15.241.101,http://119.15.241.101:38788/i,"URLHaus ID: 3731162 | Threat: malware_download | Tags: censys, elf, hajime"
-2025-12-10,Medium,URLHaus,Malicious URL,101.168.47.205,http://101.168.47.205:85/sshd,"URLHaus ID: 3731176 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
-2025-12-10,Medium,URLHaus,Malicious URL,123.209.205.236,http://123.209.205.236:85/sshd,"URLHaus ID: 3731175 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
-2025-12-10,Medium,URLHaus,Malicious URL,186.222.71.142,http://186.222.71.142:49905/i,"URLHaus ID: 3731174 | Threat: malware_download | Tags: censys, elf, hajime"
-2025-12-10,Medium,URLHaus,Malicious URL,120.157.71.85,http://120.157.71.85:85/sshd,"URLHaus ID: 3731173 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
-2025-12-10,Medium,URLHaus,Malicious URL,177.52.24.178,http://177.52.24.178:9201/i,"URLHaus ID: 3731177 | Threat: malware_download | Tags: censys, elf, hajime"
-2025-12-10,Medium,URLHaus,Malicious URL,117.206.97.125,http://117.206.97.125:2004/sshd,"URLHaus ID: 3731178 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
-2025-12-10,Medium,URLHaus,Malicious URL,178.16.55.189,http://178.16.55.189/files/6456764503/Y511yIT.exe,"URLHaus ID: 3731303 | Threat: malware_download | Tags: c2-monitor-auto, dropped-by-amadey, xred"
-2025-12-10,Medium,URLHaus,Malicious URL,47.83.26.93,http://47.83.26.93/02.08.2022.exe,"URLHaus ID: 3731185 | Threat: malware_download | Tags: censys, CobaltStrike"
-2025-12-10,Medium,URLHaus,Malicious URL,38.54.56.17,http://38.54.56.17/02.08.2022.exe,"URLHaus ID: 3731184 | Threat: malware_download | Tags: censys, CobaltStrike"
-2025-12-10,Medium,URLHaus,Malicious URL,49.235.84.148,http://49.235.84.148:5677/02.08.2022.exe,"URLHaus ID: 3731183 | Threat: malware_download | Tags: censys, CobaltStrike"
-2025-12-10,Medium,URLHaus,Malicious URL,34.71.215.207,http://34.71.215.207/02.08.2022.exe,"URLHaus ID: 3731182 | Threat: malware_download | Tags: censys, CobaltStrike"
-2025-12-10,Medium,URLHaus,Malicious URL,166.117.91.70,http://166.117.91.70:8081/02.08.2022.exe,"URLHaus ID: 3731181 | Threat: malware_download | Tags: censys, CobaltStrike"
-2025-12-10,Medium,URLHaus,Malicious URL,18.163.124.91,http://18.163.124.91:8081/02.08.2022.exe,"URLHaus ID: 3731180 | Threat: malware_download | Tags: censys, CobaltStrike"
-2025-12-10,Medium,URLHaus,Malicious URL,49.70.151.117,http://49.70.151.117:65185/i,"URLHaus ID: 3731160 | Threat: malware_download | Tags: censys, elf, hajime"
-2025-12-10,Medium,URLHaus,Malicious URL,121.136.45.187,http://121.136.45.187:65004/i,"URLHaus ID: 3731157 | Threat: malware_download | Tags: censys, elf, hajime"
-2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/arm6,"URLHaus ID: 3731131 | Threat: malware_download | Tags: elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,91.80.131.136,http://91.80.131.136/sshd,"URLHaus ID: 3731158 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
-2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/m68k,"URLHaus ID: 3731130 | Threat: malware_download | Tags: elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/arm7,"URLHaus ID: 3731135 | Threat: malware_download | Tags: elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/x86_64,"URLHaus ID: 3731134 | Threat: malware_download | Tags: elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/arm,"URLHaus ID: 3731133 | Threat: malware_download | Tags: elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/ppc,"URLHaus ID: 3731136 | Threat: malware_download | Tags: elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/arm5,"URLHaus ID: 3731137 | Threat: malware_download | Tags: elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/spc,"URLHaus ID: 3731138 | Threat: malware_download | Tags: elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,80.250.17.243,http://80.250.17.243/x86_32,"URLHaus ID: 3731139 | Threat: malware_download | Tags: elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,80.250.17.243,http://80.250.17.243/x86_64,"URLHaus ID: 3731141 | Threat: malware_download | Tags: elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,80.250.17.243,http://80.250.17.243/x86,"URLHaus ID: 3731140 | Threat: malware_download | Tags: elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,i62yv.bel1etin7eg.ru,https://i62yv.bel1etin7eg.ru/72h11q3k,URLHaus ID: 3731142 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Medium,URLHaus,Malicious URL,i62yv.bel1etin7eg.ru,https://i62yv.bel1etin7eg.ru/k3y3ncw6,URLHaus ID: 3731143 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Medium,URLHaus,Malicious URL,ellison.st,http://ellison.st/x86_32,"URLHaus ID: 3731144 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,ellison.st,http://ellison.st/x86_64,"URLHaus ID: 3731145 | Threat: malware_download | Tags: botnetdomain, elf, mirai, ua-wget"
-2025-12-10,Medium,URLHaus,Malicious URL,motphimr.co,https://motphimr.co/motphim.exe,"URLHaus ID: 3731146 | Threat: malware_download | Tags: rat, vanillarat, VanillaRatStub.exe"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/Krish637/hwid-changer/raw/refs/heads/main/enteria/hwid-changer_1.4-alpha.1.zip,"URLHaus ID: 3731147 | Threat: malware_download | Tags: SmartLoader, Stealc, zip"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/m1lleys/mills/raw/refs/heads/main/Vl42rA8dkRKp2D9.exe,"URLHaus ID: 3731148 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,jmpbowl.space,http://jmpbowl.space/curl/1594300ef576e489183fb20c411b7d28c1342209b9f7a97285c1f8df7ac1ce2c,"URLHaus ID: 3731149 | Threat: malware_download | Tags: base64, ClickFix, zip"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/cv3s/FortniteSpoofer/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731150 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,github.com,https://github.com/eLLExs/Temp-Spoofer-LifeTime/raw/refs/heads/main/TempSpoofer.exe,"URLHaus ID: 3731151 | Threat: malware_download | Tags: exe, Vidar"
-2025-12-10,Medium,URLHaus,Malicious URL,122.117.97.43,http://122.117.97.43:43199/i,"URLHaus ID: 3731153 | Threat: malware_download | Tags: censys, elf, hajime"
-2025-12-10,Medium,URLHaus,Malicious URL,178.131.167.98,http://178.131.167.98:19230/i,"URLHaus ID: 3731152 | Threat: malware_download | Tags: censys, elf, hajime"
-2025-12-10,Medium,URLHaus,Malicious URL,212.120.197.163,http://212.120.197.163:6764/i,"URLHaus ID: 3731154 | Threat: malware_download | Tags: censys, elf, hajime"
-2025-12-10,Medium,URLHaus,Malicious URL,71.25.181.86,http://71.25.181.86:50415/i,"URLHaus ID: 3731155 | Threat: malware_download | Tags: censys, elf, hajime"
-2025-12-10,Medium,URLHaus,Malicious URL,83.224.162.153,http://83.224.162.153/sshd,"URLHaus ID: 3731156 | Threat: malware_download | Tags: backdoor, censys, elf, sshdkit"
-2025-12-10,Medium,URLHaus,Malicious URL,cluster.crank-muddle.ru,https://cluster.crank-muddle.ru/lnv19u6n,URLHaus ID: 3731302 | Threat: malware_download | Tags: ClearFake
 2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/sshd,"URLHaus ID: 3731312 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,yvrp.crank-muddle.ru,https://yvrp.crank-muddle.ru/nfsi0lmg,URLHaus ID: 3731304 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Critical,AlienVault OTX,URL,teams.xclyd.com,http://teams.xclyd.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,URL,teamszv.com,http://teamszv.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,domain,6esygx.space,6esygx.space,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,domain,binancegames.sb,binancegames.sb,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,domain,qzjfxy.fun,qzjfxy.fun,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/ftp,"URLHaus ID: 3731327 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/openssh,"URLHaus ID: 3731310 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
+2025-12-10,Critical,AlienVault OTX,hostname,teams.plsgongmu.com,teams.plsgongmu.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,domain,teamscn.com,teamscn.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,domain,teamszv.com,teamszv.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,hostname,teams.baoyingkeji.com,teams.baoyingkeji.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
@@ -494,8 +499,8 @@
 2025-12-10,Critical,AlienVault OTX,hostname,teams.jqsnzp.com,teams.jqsnzp.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,hostname,teams.kensun4a.com,teams.kensun4a.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,hostname,teams.kkkgenieyesl.cn,teams.kkkgenieyesl.cn,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,hostname,teams.plsgongmu.com,teams.plsgongmu.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,hostname,teams.telegramgwxz.com,teams.telegramgwxz.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Medium,AlienVault OTX,FileHash-SHA1,,0ed540c8c2bd97839907459f9da6f506e781f7bb,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
 2025-12-10,Critical,AlienVault OTX,hostname,teams.telegramtgxz.com,teams.telegramtgxz.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,hostname,teams.telegramzwxz.com,teams.telegramzwxz.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,hostname,teams.xclyd.com,teams.xclyd.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
@@ -504,17 +509,14 @@
 2025-12-10,Medium,AlienVault OTX,FileHash-MD5,,7000b9fc622f702b4d1b38b567a9dc1a,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
 2025-12-10,Medium,AlienVault OTX,FileHash-SHA1,,d5370a1b685f54055154c1062434ca473cdd31f5,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
 2025-12-10,Medium,AlienVault OTX,FileHash-SHA256,,35593a51ecc14e68181b2de8f82dde8c18f27f16fcebedbbdac78371ff4f8d41,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
-2025-12-10,Critical,AlienVault OTX,URL,teamscn.com,http://teamscn.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,URL,teams.telegramzwxz.com,http://teams.telegramzwxz.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Medium,AlienVault OTX,FileHash-SHA256,,57e0e560801687a8691c704f79da0c1dbdd0f7d5cc671a6ce07ec0040205d728,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
 2025-12-10,Medium,AlienVault OTX,FileHash-SHA256,,999648bd814ea5b1e97918366c6bd0f82b88f5675da1d4133257b9e6f4121475,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
-2025-12-10,Critical,AlienVault OTX,URL,teams.telegramtgxz.com,http://teams.telegramtgxz.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Medium,URLHaus,Malicious URL,5v72.pipetalon.ru,https://5v72.pipetalon.ru/0t9oddj4,URLHaus ID: 3731305 | Threat: malware_download | Tags: ClearFake
-2025-12-10,Critical,AlienVault OTX,IPv4,137.220.135.79,137.220.135.79,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,IPv4,137.220.135.86,137.220.135.86,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,IPv4,143.92.63.147,143.92.63.147,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,IPv4,143.92.63.167,143.92.63.167,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,IPv4,143.92.63.190,143.92.63.190,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,IPv4,27.124.43.12,27.124.43.12,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Medium,AlienVault OTX,FileHash-SHA256,,b26927ca4342a19e9314cf05ee9d9a4bddf7b848def2db941dd281d692eaa73c,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
+2025-12-10,Critical,AlienVault OTX,domain,qzjfxy.fun,qzjfxy.fun,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,domain,binancegames.sb,binancegames.sb,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,domain,6esygx.space,6esygx.space,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,URL,teamszv.com,http://teamszv.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/cron,"URLHaus ID: 3731309 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
 2025-12-10,Critical,AlienVault OTX,IPv4,27.124.43.4,27.124.43.4,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,IPv4,43.226.125.112,43.226.125.112,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,IPv4,43.226.125.124,43.226.125.124,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
@@ -533,11 +535,14 @@
 2025-12-10,Critical,AlienVault OTX,URL,teams.kkkgenieyesl.cn,http://teams.kkkgenieyesl.cn,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,URL,teams.plsgongmu.com,http://teams.plsgongmu.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,URL,teams.telegramgwxz.com,http://teams.telegramgwxz.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Medium,AlienVault OTX,FileHash-SHA256,,57e0e560801687a8691c704f79da0c1dbdd0f7d5cc671a6ce07ec0040205d728,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
-2025-12-10,Medium,AlienVault OTX,FileHash-SHA256,,b26927ca4342a19e9314cf05ee9d9a4bddf7b848def2db941dd281d692eaa73c,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
-2025-12-10,Critical,AlienVault OTX,IPv4,134.122.207.20,134.122.207.20,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,High,AlienVault OTX,domain,okta-cloud.com,okta-cloud.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
-2025-12-10,High,AlienVault OTX,domain,okta-secure.cloud,okta-secure.cloud,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
+2025-12-10,Critical,AlienVault OTX,URL,teams.telegramtgxz.com,http://teams.telegramtgxz.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,URL,teams.telegramzwxz.com,http://teams.telegramzwxz.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,URL,teams.xclyd.com,http://teams.xclyd.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,URL,teamscn.com,http://teamscn.com,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Medium,AlienVault OTX,FileHash-SHA256,,fff31726d253458f2c29233d37ee4caf43c5252f58df76c0dced71c4014d6902,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
+2025-12-10,Medium,AlienVault OTX,FileHash-SHA1,,a03625bcfddb3169a299eeb2a22fe315d83e25d4,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
+2025-12-10,Critical,AlienVault OTX,IPv4,143.92.63.167,143.92.63.167,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,High,AlienVault OTX,hostname,sso.oktasecure.io,sso.oktasecure.io,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,High,AlienVault OTX,domain,okta-secure.io,okta-secure.io,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,High,AlienVault OTX,domain,oktacloud.io,oktacloud.io,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,High,AlienVault OTX,domain,oktasecure.io,oktasecure.io,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
@@ -549,8 +554,8 @@
 2025-12-10,High,AlienVault OTX,hostname,sso.okta-access.com,sso.okta-access.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,High,AlienVault OTX,hostname,sso.okta-cloud.com,sso.okta-cloud.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,High,AlienVault OTX,hostname,sso.okta-secure.io,sso.okta-secure.io,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
-2025-12-10,High,AlienVault OTX,hostname,sso.oktasecure.io,sso.oktasecure.io,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,Medium,AlienVault OTX,CVE,,CVE-2023-46747,"Pulse: Gogs Zero-Day RCE (CVE-2025-8110) Actively Exploited | Tags: vulnerability, zero-day, cloud security, git service, supershell, rce, gogs, symlink bypass, cve-2025-8110, cve-2024-55947"
+2025-12-10,High,AlienVault OTX,URL,sso.okta-secure.io,https://sso.okta-secure.io,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,Medium,AlienVault OTX,CVE,,CVE-2024-54148,"Pulse: Gogs Zero-Day RCE (CVE-2025-8110) Actively Exploited | Tags: vulnerability, zero-day, cloud security, git service, supershell, rce, gogs, symlink bypass, cve-2025-8110, cve-2024-55947"
 2025-12-10,Medium,AlienVault OTX,CVE,,CVE-2024-55947,"Pulse: Gogs Zero-Day RCE (CVE-2025-8110) Actively Exploited | Tags: vulnerability, zero-day, cloud security, git service, supershell, rce, gogs, symlink bypass, cve-2025-8110, cve-2024-55947"
 2025-12-10,Medium,AlienVault OTX,CVE,,CVE-2024-56731,"Pulse: Gogs Zero-Day RCE (CVE-2025-8110) Actively Exploited | Tags: vulnerability, zero-day, cloud security, git service, supershell, rce, gogs, symlink bypass, cve-2025-8110, cve-2024-55947"
@@ -562,13 +567,10 @@
 2025-12-10,Medium,AlienVault OTX,FileHash-MD5,,811799e327f74e4e4d47a9260809d468,"Pulse: Browser Hijacking Techniques: Some education required | Tags: registry manipulation, adware, key simulation, brat, appsuite, malicious extensions, browser hijacking, chrome, baoloader, tampe..."
 2025-12-10,Medium,AlienVault OTX,FileHash-MD5,,90498128094573f37a3c0482655cdca1,"Pulse: Browser Hijacking Techniques: Some education required | Tags: registry manipulation, adware, key simulation, brat, appsuite, malicious extensions, browser hijacking, chrome, baoloader, tampe..."
 2025-12-10,Medium,AlienVault OTX,FileHash-MD5,,b158a4cd00a7e25a98744b0ee28d9515,"Pulse: Browser Hijacking Techniques: Some education required | Tags: registry manipulation, adware, key simulation, brat, appsuite, malicious extensions, browser hijacking, chrome, baoloader, tampe..."
+2025-12-10,High,AlienVault OTX,domain,okta-secure.cloud,okta-secure.cloud,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,High,AlienVault OTX,domain,okta-panel.com,okta-panel.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
+2025-12-10,High,AlienVault OTX,domain,okta-cloud.com,okta-cloud.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,High,AlienVault OTX,domain,okta-access.com,okta-access.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
-2025-12-10,Medium,AlienVault OTX,FileHash-SHA256,,fff31726d253458f2c29233d37ee4caf43c5252f58df76c0dced71c4014d6902,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
-2025-12-10,High,AlienVault OTX,domain,office365mailsecurity.com,office365mailsecurity.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
-2025-12-10,Medium,AlienVault OTX,FileHash-SHA1,,0ed540c8c2bd97839907459f9da6f506e781f7bb,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
-2025-12-10,Medium,AlienVault OTX,FileHash-SHA1,,a03625bcfddb3169a299eeb2a22fe315d83e25d4,"Pulse: NANOREMOTE, cousin of FINALDRAFT | Tags: command execution, file exfiltration, google drive api, finaldraft, custom pe loader, task management, nanoremote, wmloader, windows backdoor"
-2025-12-10,High,AlienVault OTX,URL,sso.okta-secure.io,https://sso.okta-secure.io,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,High,AlienVault OTX,domain,benefitsaccessportal.com,benefitsaccessportal.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,High,AlienVault OTX,domain,benefitsadminportal.com,benefitsadminportal.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,High,AlienVault OTX,domain,benefitsapp001.com,benefitsapp001.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
@@ -591,148 +593,150 @@
 2025-12-10,High,AlienVault OTX,domain,employee-hr-portal.com,employee-hr-portal.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,High,AlienVault OTX,domain,hrbenefitsportal.com,hrbenefitsportal.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
 2025-12-10,High,AlienVault OTX,domain,mybenefits-portal.com,mybenefits-portal.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
-2025-12-10,Critical,AlienVault OTX,IPv4,134.122.207.22,134.122.207.22,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,IPv4,137.220.135.74,137.220.135.74,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,IPv4,134.122.207.17,134.122.207.17,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/wget,"URLHaus ID: 3731308 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/ntpd,"URLHaus ID: 3731322 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/pftp,"URLHaus ID: 3731321 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/tftp,"URLHaus ID: 3731320 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/bash,"URLHaus ID: 3731319 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/bins.sh,"URLHaus ID: 3731318 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/tftp,"URLHaus ID: 3731317 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/x64_bot,"URLHaus ID: 3731316 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/bash,"URLHaus ID: 3731328 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/ftp,"URLHaus ID: 3731327 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/apache2,"URLHaus ID: 3731326 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/ntpd,"URLHaus ID: 3731325 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/x64_bot,"URLHaus ID: 3731329 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/apache2,"URLHaus ID: 3731331 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/openssh,"URLHaus ID: 3731330 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
-2025-12-10,Critical,AlienVault OTX,IPv4,134.122.128.143,134.122.128.143,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,High,AlienVault OTX,domain,office365mailsecurity.com,office365mailsecurity.com,"Pulse: Investigating an adversary-in-the-middle phishing campaign targeting Microsoft 365 and Okta users | Tags: phishing, adversary-in-the-middle, microsoft 365, sso, session hijacking, credential..."
+2025-12-10,Critical,AlienVault OTX,IPv4,143.92.63.190,143.92.63.190,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,IPv4,27.124.43.12,27.124.43.12,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,IPv4,143.92.63.147,143.92.63.147,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/pftp,"URLHaus ID: 3731323 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
+2025-12-10,Critical,AlienVault OTX,IPv4,137.220.135.86,137.220.135.86,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/apache2,"URLHaus ID: 3731331 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/x64_bot,"URLHaus ID: 3731329 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
 2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/sshd,"URLHaus ID: 3731324 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/cron,"URLHaus ID: 3731309 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,94.156.152.6,http://94.156.152.6/bins/arm64,"URLHaus ID: 3731306 | Threat: malware_download | Tags: arm, elf, geofenced, mirai, opendir, ua-wget, USA"
-2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/openssh,"URLHaus ID: 3731310 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/ntpd,"URLHaus ID: 3731325 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/apache2,"URLHaus ID: 3731326 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/bash,"URLHaus ID: 3731328 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/x64_bot,"URLHaus ID: 3731316 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/tftp,"URLHaus ID: 3731317 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/bins.sh,"URLHaus ID: 3731318 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/bash,"URLHaus ID: 3731319 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/tftp,"URLHaus ID: 3731320 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/pftp,"URLHaus ID: 3731321 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/ntpd,"URLHaus ID: 3731322 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/openssh,"URLHaus ID: 3731330 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
+2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/wget,"URLHaus ID: 3731308 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
+2025-12-10,Critical,AlienVault OTX,IPv4,134.122.128.141,134.122.128.141,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,IPv4,137.220.135.79,137.220.135.79,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,IPv4,134.122.207.22,134.122.207.22,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,IPv4,134.122.207.20,134.122.207.20,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,IPv4,134.122.207.17,134.122.207.17,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,IPv4,134.122.128.143,134.122.128.143,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
+2025-12-10,Critical,AlienVault OTX,IPv4,137.220.135.74,137.220.135.74,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,IPv4,134.122.128.131,134.122.128.131,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,IPv4,27.124.43.7,27.124.43.7,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Critical,AlienVault OTX,IPv4,134.122.128.141,134.122.128.141,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
 2025-12-10,Critical,AlienVault OTX,FileHash-SHA1,,d73593469375120d2bdb403383777f2737bc2018,"Pulse: Russian Ruse: ValleyRAT Hits China via Fake Microsoft Teams Attack | Tags: false flag, valleyrat, microsoft teams, seo poisoning, apt, financial fraud, espionage, china"
-2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/wget,"URLHaus ID: 3731307 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,customers-help.online,http://customers-help.online/bins.sh,"URLHaus ID: 3731315 | Threat: malware_download | Tags: botnetdomain, gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/cron,"URLHaus ID: 3731314 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/sh,"URLHaus ID: 3731311 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
-2025-12-10,Medium,URLHaus,Malicious URL,194.15.36.84,http://194.15.36.84/ftp,"URLHaus ID: 3731313 | Threat: malware_download | Tags: gafgyt, mirai, opendir"
-2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-54307,CVSS: 8.8 | An issue was discovered in the Thermo Fisher Torrent Suite Django application 5.18.1. The /configure/plugins/plugin/upload/zip/ and /configure/newupdates/offline/bundle/upload/ ...
-2025-12-04,Critical,NVD,CVE Vulnerability,NVD,CVE-2025-53963,CVSS: 9.8 | An issue was discovered on Thermo Fisher Ion Torrent OneTouch 2 INS1005527 devices. They run an SSH server accessible over the default port 22. The root account has a weak defau...
-2025-12-04,Critical,NVD,CVE Vulnerability,NVD,CVE-2025-54303,"CVSS: 9.8 | The Thermo Fisher Torrent Suite Django application 5.18.1 has weak default credentials, which are stored as fixtures for the Django ORM API. The ionadmin user account can be use..."
-2025-12-04,Critical,NVD,CVE Vulnerability,NVD,CVE-2025-54304,"CVSS: 9.8 | An issue was discovered on Thermo Fisher Ion Torrent OneTouch 2 INS1005527 devices. When they are powered on, an X11 display server is started. The display server listens on all..."
-2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-54305,"CVSS: 7.8 | An issue was discovered in the Thermo Fisher Torrent Suite Django application 5.18.1. One of the middlewares included in this application, LocalhostAuthMiddleware, authenticates..."
-2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-54306,"CVSS: 7.2 | An issue was discovered in the Thermo Fisher Torrent Suite Django application 5.18.1. A remote code execution vulnerability exists in the network configuration functionality, st..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-14024,Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This candidate was issued in error. Notes: All references and descriptions in this candidate have been re...
-2025-12-04,Critical,NVD,CVE Vulnerability,NVD,CVE-2025-65346,CVSS: 9.1 | alexusmai laravel-file-manager 3.3.1 and below is vulnerable to Directory Traversal. The unzip/extraction functionality improperly allows archive contents to be written to arbit...
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40225,"In the Linux kernel, the following vulnerability has been resolved:
-
-drm/panthor: Fix kernel panic on partial unmap of a GPU VA region
-
-This commit address a kernel panic issue ..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40222,"In the Linux kernel, the following vulnerability has been resolved:
-
-tty: serial: sh-sci: fix RSCI FIFO overrun handling
-
-The receive error handling code is shared between RSCI ..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40220,"In the Linux kernel, the following vulnerability has been resolved:
-
-fuse: fix livelock in synchronous file put from fuseblk workers
-
-I observed a hang when running generic/323 ..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40223,"In the Linux kernel, the following vulnerability has been resolved:
 
 most: usb: Fix use-after-free in hdm_disconnect
 
 hdm_disconnect() calls most_deregister_interface(), which e..."
+2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-54305,"CVSS: 7.8 | An issue was discovered in the Thermo Fisher Torrent Suite Django application 5.18.1. One of the middlewares included in this application, LocalhostAuthMiddleware, authenticates..."
+2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-54306,"CVSS: 7.2 | An issue was discovered in the Thermo Fisher Torrent Suite Django application 5.18.1. A remote code execution vulnerability exists in the network configuration functionality, st..."
+2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-54307,CVSS: 8.8 | An issue was discovered in the Thermo Fisher Torrent Suite Django application 5.18.1. The /configure/plugins/plugin/upload/zip/ and /configure/newupdates/offline/bundle/upload/ ...
+2025-12-04,Critical,NVD,CVE Vulnerability,NVD,CVE-2025-65346,CVSS: 9.1 | alexusmai laravel-file-manager 3.3.1 and below is vulnerable to Directory Traversal. The unzip/extraction functionality improperly allows archive contents to be written to arbit...
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-14024,Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This candidate was issued in error. Notes: All references and descriptions in this candidate have been re...
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40222,"In the Linux kernel, the following vulnerability has been resolved:
+
+tty: serial: sh-sci: fix RSCI FIFO overrun handling
+
+The receive error handling code is shared between RSCI ..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40225,"In the Linux kernel, the following vulnerability has been resolved:
+
+drm/panthor: Fix kernel panic on partial unmap of a GPU VA region
+
+This commit address a kernel panic issue ..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40224,"In the Linux kernel, the following vulnerability has been resolved:
 
 hwmon: (cgbc-hwmon) Add missing NULL check after devm_kzalloc()
 
 The driver allocates memory for sensor data..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40221,"In the Linux kernel, the following vulnerability has been resolved:
-
-media: pci: mg4b: fix uninitialized iio scan data
-
-Fix potential leak of uninitialized stack data to userspa..."
-2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-29846,CVSS: 7.2 | A vulnerability in portenable cgi allows remote authenticated users to get the status of installed packages.
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40219,"In the Linux kernel, the following vulnerability has been resolved:
-
-PCI/IOV: Add PCI rescan-remove locking when enabling/disabling SR-IOV
-
-Before disabling SR-IOV via config sp..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40218,"In the Linux kernel, the following vulnerability has been resolved:
-
-mm/damon/vaddr: do not repeat pte_offset_map_lock() until success
-
-DAMON's virtual address space operation s..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40217,"In the Linux kernel, the following vulnerability has been resolved:
-
-pidfs: validate extensible ioctls
-
-Validate extensible ioctls stricter than we do now."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40216,"In the Linux kernel, the following vulnerability has been resolved:
-
-io_uring/rsrc: don't rely on user vaddr alignment
-
-There is no guaranteed alignment for user pointers, howev..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-2848,"CVSS: 6.3 | A vulnerability in Synology Mail Server allows remote authenticated attackers to read and write non-sensitive settings, and disable some non-critical functions."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-29845,CVSS: 4.3 | A vulnerability in VideoPlayer2 subtitle cgi allows remote authenticated users to read .srt files.
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-29844,CVSS: 4.3 | A vulnerability in FileStation file cgi allows remote authenticated users to read file metadata and path information.
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-29843,CVSS: 5.4 | A vulnerability in FileStation thumb cgi allows remote authenticated users to read/write image files.
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-14008,CVSS: 4.7 | A flaw has been found in dayrui XunRuiCMS up to 4.7.1. This vulnerability affects unknown code of the file admin79f2ec220c7e.php?c=api&m=test_site_domain of the component Projec...
-2025-12-04,Low,NVD,CVE Vulnerability,NVD,CVE-2025-14007,CVSS: 2.0 | A vulnerability was detected in dayrui XunRuiCMS up to 4.7.1. This affects an unknown part of the file /admin79f2ec220c7e.php?c=api&m=demo&name=mobile of the component Domain Na...
-2025-12-04,Critical,NVD,CVE Vulnerability,NVD,CVE-2024-45538,CVSS: 9.6 | Cross-Site Request Forgery (CSRF) vulnerability in WebAPI Framework in Synology DiskStation Manager (DSM) before 7.2.1-69057-2 and 7.2.2-72806 and Synology Unified Controller (D...
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40227,"In the Linux kernel, the following vulnerability has been resolved:
-
-mm/damon/sysfs: dealloc commit test ctx always
-
-The damon_ctx for testing online DAMON parameters commit inp..."
-2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2024-45539,CVSS: 7.5 | Out-of-bounds write vulnerability in cgi components in Synology DiskStation Manager (DSM) before 7.2.1-69057-2 and 7.2.2-72806 and Synology Unified Controller (DSMUC) before 3.1...
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2024-5401,CVSS: 4.3 | Improper control of dynamically-managed code resources vulnerability in WebAPI component in Synology DiskStation Manager (DSM) before 7.1.1-42962-8 and 7.2.1-69057-2 and 7.2.2-7...
-2025-12-04,Low,NVD,CVE Vulnerability,NVD,CVE-2025-14006,CVSS: 3.5 | A security vulnerability has been detected in dayrui XunRuiCMS up to 4.7.1. Affected by this issue is some unknown functionality of the file /admind45f74adbd95.php?c=field&m=add...
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40226,"In the Linux kernel, the following vulnerability has been resolved:
 
 firmware: arm_scmi: Account for failed debug initialization
 
 When the SCMI debug subsystem fails to initiali..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40227,"In the Linux kernel, the following vulnerability has been resolved:
+
+mm/damon/sysfs: dealloc commit test ctx always
+
+The damon_ctx for testing online DAMON parameters commit inp..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40230,"In the Linux kernel, the following vulnerability has been resolved:
 
 mm: prevent poison consumption when splitting THP
 
 When performing memory error injection on a THP (Transpar..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40228,"In the Linux kernel, the following vulnerability has been resolved:
-
-mm/damon/sysfs: catch commit test ctx alloc failure
-
-Patch series ""mm/damon/sysfs: fix commit test damon_ctx..."
+2025-12-04,Critical,NVD,CVE Vulnerability,NVD,CVE-2025-54303,"CVSS: 9.8 | The Thermo Fisher Torrent Suite Django application 5.18.1 has weak default credentials, which are stored as fixtures for the Django ORM API. The ionadmin user account can be use..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40229,"In the Linux kernel, the following vulnerability has been resolved:
 
 mm/damon/core: fix potential memory leak by cleaning ops_filter in damon_destroy_scheme
 
 Currently, damon_de..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40259,"In the Linux kernel, the following vulnerability has been resolved:
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40228,"In the Linux kernel, the following vulnerability has been resolved:
 
-scsi: sg: Do not sleep in atomic context
+mm/damon/sysfs: catch commit test ctx alloc failure
 
-sg_finish_rem_req() calls blk_rq_unmap_user(). The latter function..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40260,"In the Linux kernel, the following vulnerability has been resolved:
+Patch series ""mm/damon/sysfs: fix commit test damon_ctx..."
+2025-12-04,Critical,NVD,CVE Vulnerability,NVD,CVE-2025-54304,"CVSS: 9.8 | An issue was discovered on Thermo Fisher Ion Torrent OneTouch 2 INS1005527 devices. When they are powered on, an X11 display server is started. The display server listens on all..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40218,"In the Linux kernel, the following vulnerability has been resolved:
 
-sched_ext: Fix scx_enable() crash on helper kthread creation failure
+mm/damon/vaddr: do not repeat pte_offset_map_lock() until success
 
-A crash was observed when the sched_ex..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40261,"In the Linux kernel, the following vulnerability has been resolved:
+DAMON's virtual address space operation s..."
+2025-12-04,Critical,NVD,CVE Vulnerability,NVD,CVE-2025-53963,CVSS: 9.8 | An issue was discovered on Thermo Fisher Ion Torrent OneTouch 2 INS1005527 devices. They run an SSH server accessible over the default port 22. The root account has a weak defau...
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-29845,CVSS: 4.3 | A vulnerability in VideoPlayer2 subtitle cgi allows remote authenticated users to read .srt files.
+2025-12-04,Low,NVD,CVE Vulnerability,NVD,CVE-2025-14007,CVSS: 2.0 | A vulnerability was detected in dayrui XunRuiCMS up to 4.7.1. This affects an unknown part of the file /admin79f2ec220c7e.php?c=api&m=demo&name=mobile of the component Domain Na...
+2025-12-04,Low,NVD,CVE Vulnerability,NVD,CVE-2025-14006,CVSS: 3.5 | A security vulnerability has been detected in dayrui XunRuiCMS up to 4.7.1. Affected by this issue is some unknown functionality of the file /admind45f74adbd95.php?c=field&m=add...
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2024-5401,CVSS: 4.3 | Improper control of dynamically-managed code resources vulnerability in WebAPI component in Synology DiskStation Manager (DSM) before 7.1.1-42962-8 and 7.2.1-69057-2 and 7.2.2-7...
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40232,"In the Linux kernel, the following vulnerability has been resolved:
 
-nvme: nvme-fc: Ensure ->ioerr_work is cancelled in nvme_fc_delete_ctrl()
+rv: Fully convert enabled_monitors to use list_head as iterator
 
-nvme_fc_delete_assocation() waits ..."
+The callbacks in enabled_monitors_seq_ops a..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-29843,CVSS: 5.4 | A vulnerability in FileStation thumb cgi allows remote authenticated users to read/write image files.
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-29844,CVSS: 4.3 | A vulnerability in FileStation file cgi allows remote authenticated users to read file metadata and path information.
+2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-29846,CVSS: 7.2 | A vulnerability in portenable cgi allows remote authenticated users to get the status of installed packages.
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40221,"In the Linux kernel, the following vulnerability has been resolved:
+
+media: pci: mg4b: fix uninitialized iio scan data
+
+Fix potential leak of uninitialized stack data to userspa..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-2848,"CVSS: 6.3 | A vulnerability in Synology Mail Server allows remote authenticated attackers to read and write non-sensitive settings, and disable some non-critical functions."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40216,"In the Linux kernel, the following vulnerability has been resolved:
+
+io_uring/rsrc: don't rely on user vaddr alignment
+
+There is no guaranteed alignment for user pointers, howev..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40217,"In the Linux kernel, the following vulnerability has been resolved:
+
+pidfs: validate extensible ioctls
+
+Validate extensible ioctls stricter than we do now."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-14008,CVSS: 4.7 | A flaw has been found in dayrui XunRuiCMS up to 4.7.1. This vulnerability affects unknown code of the file admin79f2ec220c7e.php?c=api&m=test_site_domain of the component Projec...
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40219,"In the Linux kernel, the following vulnerability has been resolved:
+
+PCI/IOV: Add PCI rescan-remove locking when enabling/disabling SR-IOV
+
+Before disabling SR-IOV via config sp..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40220,"In the Linux kernel, the following vulnerability has been resolved:
+
+fuse: fix livelock in synchronous file put from fuseblk workers
+
+I observed a hang when running generic/323 ..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40231,"In the Linux kernel, the following vulnerability has been resolved:
+
+vsock: fix lock inversion in vsock_assign_transport()
+
+Syzbot reported a potential lock inversion deadlock b..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40238,"In the Linux kernel, the following vulnerability has been resolved:
+
+net/mlx5: Fix IPsec cleanup over MPV device
+
+When we do mlx5e_detach_netdev() we eventually disable blocking..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40233,"In the Linux kernel, the following vulnerability has been resolved:
+
+ocfs2: clear extent cache after moving/defragmenting extents
+
+The extent map cache can become stale when ext..."
+2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-57212,CVSS: 7.5 | Incorrect access control in the component ApiOrderService.java of platform v1.0.0 allows attackers to access sensitive information via a crafted request.
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40262,"In the Linux kernel, the following vulnerability has been resolved:
 
 Input: imx_sc_key - fix memory corruption on unload
@@ -764,9 +768,14 @@ Verify the offset to prevent OOB access in the ..."
 2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-54160,CVSS: 7.8 | Improper limitation of a pathname to a restricted directory ('Path Traversal') vulnerability in BeeDrive in Synology BeeDrive for desktop before 1.4.2-13960 allows local users t...
 2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-56427,CVSS: 7.5 | Directory Traversal vulnerability in ComposioHQ v.0.7.20 allows a remote attacker to obtain sensitive information via the _download_file_or_dir function.
 2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-57210,CVSS: 7.5 | Incorrect access control in the component ApiPayController.java of platform v1.0.0 allows attackers to access sensitive information via unspecified vectors.
-2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-57212,CVSS: 7.5 | Incorrect access control in the component ApiOrderService.java of platform v1.0.0 allows attackers to access sensitive information via a crafted request.
 2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2025-57213,CVSS: 7.5 | Incorrect access control in the component orderService.queryObject of platform v1.0.0 allows attackers to access sensitive information via a crafted request.
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40260,"In the Linux kernel, the following vulnerability has been resolved:
+
+sched_ext: Fix scx_enable() crash on helper kthread creation failure
+
+A crash was observed when the sched_ex..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-61148,CVSS: 6.5 | An Insecure Direct Object Reference (IDOR) vulnerability in the EduplusCampus 3.0.1 Student Payment API allows authenticated users to access other students personal and financia...
+2025-12-04,High,NVD,CVE Vulnerability,NVD,CVE-2024-45539,CVSS: 7.5 | Out-of-bounds write vulnerability in cgi components in Synology DiskStation Manager (DSM) before 7.2.1-69057-2 and 7.2.2-72806 and Synology Unified Controller (DSMUC) before 3.1...
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-63681,"CVSS: 4.3 | open-webui v0.6.33 is vulnerable to Incorrect Access Control. The API /api/tasks/stop/ directly accesses and cancels tasks without verifying user ownership, enabling attackers (..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-65516,"CVSS: 6.1 | A stored cross-site scripting (XSS) vulnerability was discovered in Seafile Community Edition prior to version 13.0.12. When Seafile is configured with the Golang file server, a..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-8074,CVSS: 5.6 | Origin validation error vulnerability in BeeDrive in Synology BeeDrive for desktop before 1.4.3-13973 allows local users to write arbitrary files with non-sensitive information ...
@@ -775,48 +784,28 @@ Verify the offset to prevent OOB access in the ..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-66373,CVSS: 4.8 | Akamai Ghost on Akamai CDN edge servers before 2025-11-17 has a chunked request body processing error that can result in HTTP request smuggling. When Akamai Ghost receives an in...
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-66516,"Critical XXE in Apache Tika tika-core (1.13-3.2.1), tika-pdf-module (2.0.0-3.2.1) and tika-parsers (1.13-1.28.5) modules on all platforms allows an attacker to carry out XML Ext..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-14011,CVSS: 4.7 | A vulnerability was found in JIZHICMS up to 2.5.5. Impacted is the function commentlist of the file /index.php/admins/Comment/addcomment.html of the component Add Display Name F...
-2025-12-04,Low,NVD,CVE Vulnerability,NVD,CVE-2025-14005,CVSS: 2.4 | A weakness has been identified in dayrui XunRuiCMS up to 4.7.1. Affected by this vulnerability is an unknown functionality of the file /admind45f74adbd95.php?c=field&m=add&rname...
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40258,"In the Linux kernel, the following vulnerability has been resolved:
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40261,"In the Linux kernel, the following vulnerability has been resolved:
 
-mptcp: fix race condition in mptcp_schedule_work()
+nvme: nvme-fc: Ensure ->ioerr_work is cancelled in nvme_fc_delete_ctrl()
 
-syzbot reported use-after-free in mptcp_schedule_work() ..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40257,"In the Linux kernel, the following vulnerability has been resolved:
+nvme_fc_delete_assocation() waits ..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40259,"In the Linux kernel, the following vulnerability has been resolved:
 
-mptcp: fix a race in mptcp_pm_del_add_timer()
+scsi: sg: Do not sleep in atomic context
 
-mptcp_pm_del_add_timer() can call sk_stop_timer_sync(sk, &ent..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40256,"In the Linux kernel, the following vulnerability has been resolved:
-
-xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
-
-In commit b441cf3..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40242,"In the Linux kernel, the following vulnerability has been resolved:
-
-gfs2: Fix unlikely race in gdlm_put_lock
-
-In gdlm_put_lock(), there is a small window of time in which the
-D..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40231,"In the Linux kernel, the following vulnerability has been resolved:
-
-vsock: fix lock inversion in vsock_assign_transport()
-
-Syzbot reported a potential lock inversion deadlock b..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40232,"In the Linux kernel, the following vulnerability has been resolved:
-
-rv: Fully convert enabled_monitors to use list_head as iterator
-
-The callbacks in enabled_monitors_seq_ops a..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40233,"In the Linux kernel, the following vulnerability has been resolved:
-
-ocfs2: clear extent cache after moving/defragmenting extents
-
-The extent map cache can become stale when ext..."
+sg_finish_rem_req() calls blk_rq_unmap_user(). The latter function..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40234,"In the Linux kernel, the following vulnerability has been resolved:
 
 platform/x86: alienware-wmi-wmax: Fix NULL pointer dereference in sleep handlers
 
 Devices without the AWCC i..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40246,"In the Linux kernel, the following vulnerability has been resolved:
+
+xfs: fix out of bounds memory read error in symlink repair
+
+xfs/286 produced this report on my test fleet:
+
+..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40235,"In the Linux kernel, the following vulnerability has been resolved:
 
 btrfs: directly free partially initialized fs_info in btrfs_check_leaked_roots()
@@ -833,11 +822,6 @@ in..."
 fs/notify: call exportfs_encode_fid with s_umount
 
 Calling intotify_show_fdinfo() on fd watching an overlayf..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40238,"In the Linux kernel, the following vulnerability has been resolved:
-
-net/mlx5: Fix IPsec cleanup over MPV device
-
-When we do mlx5e_detach_netdev() we eventually disable blocking..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40239,"In the Linux kernel, the following vulnerability has been resolved:
 
 net: phy: micrel: always set shared->phydev for LAN8814
@@ -853,16 +837,17 @@ chunk->skb pointer is dereferenced in the if..."
 erofs: fix crafted invalid cases for encoded extents
 
 Robert recently reported two corrupted images that can..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40242,"In the Linux kernel, the following vulnerability has been resolved:
+
+gfs2: Fix unlikely race in gdlm_put_lock
+
+In gdlm_put_lock(), there is a small window of time in which the
+D..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40243,"In the Linux kernel, the following vulnerability has been resolved:
 
 hfs: fix KMSAN uninit-value issue in hfs_find_set_zero_bits()
 
 The syzbot reported issue in hfs_find_set_zer..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40255,"In the Linux kernel, the following vulnerability has been resolved:
-
-net: core: prevent NULL deref in generic_hwtstamp_ioctl_lower()
-
-The ethtool tsconfig Netlink path can trigg..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40244,"In the Linux kernel, the following vulnerability has been resolved:
 
 hfsplus: fix KMSAN uninit-value issue in __hfsplus_ext_cache_extent()
@@ -873,13 +858,6 @@ The syzbot reported issue in __hfsplu..."
 nios2: ensure that memblock.current_limit is set when setting pfn limits
 
 On nios2, with CONFIG_FLATMEM set,..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40246,"In the Linux kernel, the following vulnerability has been resolved:
-
-xfs: fix out of bounds memory read error in symlink repair
-
-xfs/286 produced this report on my test fleet:
-
-..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40247,"In the Linux kernel, the following vulnerability has been resolved:
 
 drm/msm: Fix pgtable prealloc error path
@@ -887,6 +865,11 @@ drm/msm: Fix pgtable prealloc error path
 The following splat was reported:
 
     Unable to handle kernel NUL..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40258,"In the Linux kernel, the following vulnerability has been resolved:
+
+mptcp: fix race condition in mptcp_schedule_work()
+
+syzbot reported use-after-free in mptcp_schedule_work() ..."
 2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40248,"In the Linux kernel, the following vulnerability has been resolved:
 
 vsock: Ignore signal/timeout on connect() if already established
@@ -923,4 +906,19 @@ from functi..."
 net: openvswitch: remove never-working support for setting nsh fields
 
 The validation of the set(nsh(...)) a..."
-2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-14004,CVSS: 4.7 | A security flaw has been discovered in dayrui XunRuiCMS up to 4.7.1. Affected is an unknown function of the file /admind45f74adbd95.php?c=email&m=add of the component Email Sett...
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40255,"In the Linux kernel, the following vulnerability has been resolved:
+
+net: core: prevent NULL deref in generic_hwtstamp_ioctl_lower()
+
+The ethtool tsconfig Netlink path can trigg..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40256,"In the Linux kernel, the following vulnerability has been resolved:
+
+xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
+
+In commit b441cf3..."
+2025-12-04,Medium,NVD,CVE Vulnerability,NVD,CVE-2025-40257,"In the Linux kernel, the following vulnerability has been resolved:
+
+mptcp: fix a race in mptcp_pm_del_add_timer()
+
+mptcp_pm_del_add_timer() can call sk_stop_timer_sync(sk, &ent..."
+2025-12-04,Critical,NVD,CVE Vulnerability,NVD,CVE-2024-45538,CVSS: 9.6 | Cross-Site Request Forgery (CSRF) vulnerability in WebAPI Framework in Synology DiskStation Manager (DSM) before 7.2.1-69057-2 and 7.2.2-72806 and Synology Unified Controller (D...
