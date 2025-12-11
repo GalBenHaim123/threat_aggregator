@@ -208,4 +208,5 @@ __marimo__/
 
 # Project outputs
 *.csv
+*.xlsx
 *.html
