@@ -233,86 +233,111 @@ def fetch_nvd() -> List[ThreatRecord]:
         "apiKey": NVD_API_KEY,
         "User-Agent": HEADERS["User-Agent"],
     }
+    base_url = "https://services.nvd.nist.gov/rest/json/cves/2.0"
 
     try:
-        resp = requests.get(
-            "https://services.nvd.nist.gov/rest/json/cves/2.0",
-            headers=headers,
-            params=params,
-            timeout=30,
-        )
-        logger.debug("NVD status %s | content-type %s", resp.status_code, resp.headers.get("Content-Type"))
-        resp.raise_for_status()
-        json_data = resp.json()
-        vulns = json_data.get("vulnerabilities", [])
-        if not vulns:
-            logger.info("NVD returned no vulnerabilities in window.")
-            return records
-
-        for vuln in vulns:
-            cve_obj = vuln.get("cve", {})
-            cve_id = cve_obj.get("id")
-            if not cve_id:
-                continue
-
-            published = cve_obj.get("published", "")
-            try:
-                published_dt = datetime.fromisoformat(str(published).replace("Z", "+00:00"))
-                date_str = published_dt.strftime("%Y-%m-%d")
-            except Exception:
-                published_dt = REPORT_END
-                date_str = published_dt.strftime("%Y-%m-%d")
-
-            if not is_in_report_window(published_dt):
-                continue
-
-            desc_list = cve_obj.get("descriptions") or []
-            description = ""
-            for desc in desc_list:
-                if desc.get("lang") == "en":
-                    description = desc.get("value", "")
-                    break
-            if not description and desc_list:
-                description = desc_list[0].get("value", "")
-            if description and len(description) > 180:
-                description = f"{description[:177]}..."
-
-            metrics = cve_obj.get("metrics", {}) or {}
-            score = None
-            severity_str = None
-            if "cvssMetricV31" in metrics:
-                cvss_data = metrics["cvssMetricV31"][0].get("cvssData", {})
-                score = cvss_data.get("baseScore")
-                severity_str = cvss_data.get("baseSeverity")
-            elif "cvssMetricV30" in metrics:
-                cvss_data = metrics["cvssMetricV30"][0].get("cvssData", {})
-                score = cvss_data.get("baseScore")
-                severity_str = cvss_data.get("baseSeverity")
-            elif "cvssMetricV2" in metrics:
-                cvss_data = metrics["cvssMetricV2"][0].get("cvssData", {})
-                score = cvss_data.get("baseScore")
-                severity_str = cvss_data.get("baseSeverity")
-
-            severity = severity_str.title() if severity_str else map_cvss_to_severity(score)
-
-            info_parts = []
-            if score is not None:
-                info_parts.append(f"CVSS: {score}")
-            if description:
-                info_parts.append(description)
-            info = "NVD CVE Entry" if not info_parts else " | ".join(info_parts)
-
-            records.append(
-                ThreatRecord(
-                    date=date_str,
-                    source="NVD",
-                    type="CVE Vulnerability",
-                    domain="NVD",
-                    identifier=cve_id,
-                    info=info,
-                    severity=severity,
-                )
+        while True:
+            resp = requests.get(
+                base_url,
+                headers=headers,
+                params=params,
+                timeout=30,
             )
+            logger.debug(
+                "NVD status %s | content-type %s | startIndex %s",
+                resp.status_code,
+                resp.headers.get("Content-Type"),
+                params.get("startIndex"),
+            )
+            resp.raise_for_status()
+            json_data = resp.json()
+
+            vulns = json_data.get("vulnerabilities", [])
+            if not vulns:
+                if not records:
+                    logger.info("NVD returned no vulnerabilities in window.")
+                break
+
+            for vuln in vulns:
+                cve_obj = vuln.get("cve", {})
+                cve_id = cve_obj.get("id")
+                if not cve_id:
+                    continue
+
+                published = cve_obj.get("published", "")
+                try:
+                    published_dt = datetime.fromisoformat(str(published).replace("Z", "+00:00"))
+                    date_str = published_dt.strftime("%Y-%m-%d")
+                except Exception:
+                    published_dt = REPORT_END
+                    date_str = published_dt.strftime("%Y-%m-%d")
+
+                if not is_in_report_window(published_dt):
+                    continue
+
+                desc_list = cve_obj.get("descriptions") or []
+                description = ""
+                for desc in desc_list:
+                    if desc.get("lang") == "en":
+                        description = desc.get("value", "")
+                        break
+                if not description and desc_list:
+                    description = desc_list[0].get("value", "")
+                if description and len(description) > 180:
+                    description = f"{description[:177]}..."
+
+                metrics = cve_obj.get("metrics", {}) or {}
+                score = None
+                severity_str = None
+                if "cvssMetricV31" in metrics:
+                    cvss_data = metrics["cvssMetricV31"][0].get("cvssData", {})
+                    score = cvss_data.get("baseScore")
+                    severity_str = cvss_data.get("baseSeverity")
+                elif "cvssMetricV30" in metrics:
+                    cvss_data = metrics["cvssMetricV30"][0].get("cvssData", {})
+                    score = cvss_data.get("baseScore")
+                    severity_str = cvss_data.get("baseSeverity")
+                elif "cvssMetricV2" in metrics:
+                    cvss_data = metrics["cvssMetricV2"][0].get("cvssData", {})
+                    score = cvss_data.get("baseScore")
+                    severity_str = cvss_data.get("baseSeverity")
+
+                severity = severity_str.title() if severity_str else map_cvss_to_severity(score)
+
+                info_parts = []
+                if score is not None:
+                    info_parts.append(f"CVSS: {score}")
+                if description:
+                    info_parts.append(description)
+                info = "NVD CVE Entry" if not info_parts else " | ".join(info_parts)
+
+                records.append(
+                    ThreatRecord(
+                        date=date_str,
+                        source="NVD",
+                        type="CVE Vulnerability",
+                        domain="NVD",
+                        identifier=cve_id,
+                        info=info,
+                        severity=severity,
+                    )
+                )
+
+            # Pagination handling: move to next page if there are more results.
+            total_results = json_data.get("totalResults")
+            current_index = json_data.get("startIndex", params["startIndex"])
+            page_size = json_data.get("resultsPerPage", params["resultsPerPage"])
+
+            next_index = current_index + page_size
+            if total_results is not None and next_index >= total_results:
+                break
+            if len(vulns) < page_size:
+                # Safety: if API doesn't give totalResults but we got a short page, stop.
+                break
+
+            params["startIndex"] = next_index
+            # Respect NVD rate limiting recommendations.
+            time.sleep(0.6)
 
         logger.info("Collected %s CVEs from NVD (last 7 days).", len(records))
     except Exception as exc:
